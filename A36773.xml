@@ -1,0 +1,2784 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Philobasileus. Philepiscopus· Philophilus· Th. Du Gard M.A. R.B.</title>
+            <author>Dugard, Thomas, b. 1587 or 8.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1664</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 83 KB of XML-encoded text transcribed from 31 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A36773</idno>
+            <idno type="STC">Wing D2463A</idno>
+            <idno type="STC">ESTC R213525</idno>
+            <idno type="EEBO-CITATION">99825886</idno>
+            <idno type="PROQUEST">99825886</idno>
+            <idno type="VID">30277</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A36773)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 30277)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1758:10)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Philobasileus. Philepiscopus· Philophilus· Th. Du Gard M.A. R.B.</title>
+                  <author>Dugard, Thomas, b. 1587 or 8.</author>
+               </titleStmt>
+               <extent>[2], 58 p.   </extent>
+               <publicationStmt>
+                  <publisher>printed and are to be sold by Edward Brewster, at the Crane in St. Pauls Church-yard,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1664.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In Latin and English verse.</note>
+                  <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-12</date>
+            <label>Anne Simpson</label>Sampled and proofread</change>
+         <change>
+            <date>2013-12</date>
+            <label>Anne Simpson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:30277:1" rendition="simple:additions"/>
+            <p>Philobaſileus. PHILEPISCOPUS. PHILOPHILUS. <hi>Th. Du Gard</hi> M. A. R. B. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.</p>
+            <p>
+               <hi>LONDON,</hi> Printed and are to be ſold by <hi>Edward Brewſter,</hi> at the <hi>Crane</hi> in St. <hi>Pauls</hi> Church-yard. 1664.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:30277:2"/>
+            <pb n="1" facs="tcp:30277:2"/>
+            <head>PHILOBASILEUS.</head>
+            <argument>
+               <p>A Poem preſented to the Archdeacon of <hi>Worceſter,</hi> and many other Miniſters when they met at <hi>Strat<g ref="char:EOLhyphen"/>ford</hi> upon <hi>Avon,</hi> Octob. <hi>1. 1661.</hi> About the Free Preſent.</p>
+            </argument>
+            <div type="poem">
+               <lg>
+                  <l>WHen any asks what Preſent I</l>
+                  <l>Intend his Sacred Majeſty,</l>
+                  <l>I troubled am; not as Churles are,</l>
+                  <l>Who ſay they nothing have to ſpare,</l>
+                  <l>Their Charge and Payments are ſo great:</l>
+                  <l>Beſides they art ſo much in Debt:</l>
+                  <l>And think it not a fitting thing</l>
+                  <l>For them to give unto a King:</l>
+                  <l>For ſo to do what can it be</l>
+                  <l>But to add water to the Sea?</l>
+                  <l>And wonder why the Parliament</l>
+                  <l>Would ſuch a <hi>Deed of Gift</hi> invent:</l>
+                  <l>What? had they nothing elſe to do</l>
+                  <l>But to ſet men a giving ſo,</l>
+                  <l>When the moſt part in every place</l>
+                  <l>Are not yet in a <hi>Dative caſe?</hi>
+                  </l>
+                  <pb n="2" facs="tcp:30277:3"/>
+                  <l>And add, they verily believe</l>
+                  <l>The Money which now people give,</l>
+                  <l>Will be ſo <hi>Clipt,</hi> his Majeſtie</l>
+                  <l>Will ſcarce receive two parts in three:</l>
+                  <l>And if he ſhould receive full pay,</l>
+                  <l>His Kindneſs would ſoon giv't away.</l>
+                  <l>Theſe Churles in grain thus and more ſay;</l>
+                  <l>I might have ſaid they thus do <hi>Bray.</hi>
+                  </l>
+                  <l>Theſe love a Crown above their King,</l>
+                  <l>And count their Coin <hi>The Soveraign Thing.</hi>
+                  </l>
+                  <l>Moſt <hi>Midas minded</hi> Miſcreants: who</l>
+                  <l>'Twere well they ſhew'd his long Ears too:</l>
+                  <l>And found the Metamorphoſis</l>
+                  <l>That Miſer did in every diſh:</l>
+                  <l>Untill their dog-like appetite</l>
+                  <l>Were ſated and extinguiſht quite:</l>
+                  <l>And the Guilt of this <hi>Powder-Treaſon</hi>
+                  </l>
+                  <l>Againſt their Soveraign Lady, Reaſon,</l>
+                  <l>Were purg'd by ſome choice Offering</l>
+                  <l>Unto our Soveraign Lord the King.</l>
+               </lg>
+               <lg>
+                  <l>My trouble is not with my Heart,</l>
+                  <l>That ſomething now I muſt impart</l>
+                  <l>To Him, who all I have preſerves,</l>
+                  <l>And all I have and am deſerves,</l>
+                  <l>But that my Hand no better keeps</l>
+                  <l>Paſe with my Heart: The one but creeps,</l>
+                  <l>The other flees, and takes a view</l>
+                  <l>Of all the Treaſure in <hi>Peru.</hi>
+                  </l>
+                  <pb n="3" facs="tcp:30277:3"/>
+                  <l>Mountains of Gold it doth conceive,</l>
+                  <l>Yea more, of Pearls: and then doth grieve,</l>
+                  <l>That 'tis not able to command</l>
+                  <l>What it conceives into my Hand.</l>
+                  <l>
+                     <hi>Araunah,</hi> as a King, unto</l>
+                  <l>King <hi>David</hi> gave. So would I do</l>
+                  <l>Unto King <hi>Charles:</hi> I would preſent</l>
+                  <l>Something like Him, <hi>Moſt Excellent:</hi>
+                  </l>
+                  <l>That, as He is of Kings the <hi>Beſt,</hi>
+                  </l>
+                  <l>Should make Him <hi>Greater</hi> than the reſt.</l>
+               </lg>
+               <lg>
+                  <l>And 'tis my comfort that I ſee,</l>
+                  <l>My Hand being bound, my Will ſo free:</l>
+                  <l>And that if my Tenuitie</l>
+                  <l>Shall forty Crowns add unto three,</l>
+                  <l>(Wiſhing they were ſo many Thrones,</l>
+                  <l>Made all of Pearls and pretious Stones,)</l>
+                  <l>They'l with <hi>Great Charles</hi> acceptance find</l>
+                  <l>According to my <hi>Willing Mind.</hi>
+                  </l>
+                  <l>For He is like the King of Kings,</l>
+                  <l>Who thus accepts mean Offerings.</l>
+               </lg>
+               <q>
+                  <p>
+                     <bibl>
+                        <hi>2 Chr. 17.5.</hi>
+                     </bibl> The Lord eſtabliſhed the Kingdom in his hand, and all <hi>Judah</hi> brought to <hi>Jehoſhaphat</hi> Pre<g ref="char:EOLhyphen"/>ſents, and he had riches and honour in abundance.</p>
+                  <p>
+                     <bibl>
+                        <hi>2 Chron. 32.23.</hi>
+                     </bibl> And many brought gifts unto the Lord to <hi>Jeruſalem,</hi> and Preſents to <hi>Hezekiah,</hi> King of <hi>Judah:</hi> ſo that he was magnified in the ſight of all Nations from thenceforth.</p>
+               </q>
+            </div>
+            <div type="poem">
+               <pb n="4" facs="tcp:30277:4"/>
+               <head>Ad Symmyſtas venerandos, Verbi divini Miniſtros, cum Calendis Octobris, Anno Dom. 1661. Stratfordiae. in agro Varvicenſi, Amorem ſuum Gratitudiném<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> in Regem Sereniſſimum, ſum<g ref="char:EOLhyphen"/>mé<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> dexteris <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> teſtandi er<g ref="char:EOLhyphen"/>gô convenirent.</head>
+               <lg>
+                  <l>
+                     <hi>DIgnus es Argento, fulvo quo<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> dignior Auro.</hi>
+                  </l>
+                  <l>
+                     <hi>Naſo</hi> poëta ſuum ſic eſt affatus amicum.</l>
+                  <l>O quanto magis eſt <hi>Carolus</hi> Rex dignus utroque!</l>
+                  <l>Qui ſuperat Reges alios, ut quaeque metalla</l>
+                  <l>Aurum praerutilans, aut <hi>Titan</hi> aureus aſtra.</l>
+                  <l>Scilicet, Auri inſtar, lento spectatus in igne,</l>
+                  <l>(Ah quàm dura et dira tulit!) Puriſſimus exît.</l>
+                  <l>Numinis hinc Illi Cultus, Sapientia, verae</l>
+                  <l>Relligionis amor, Candor, Prudentia rerum,</l>
+                  <l>In ſeſe Imperium, Regnorum Cura Paterna,</l>
+                  <l>Juſtitia, at<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> Fides, &amp; quaevis deni<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> Virtus,</l>
+                  <l>Crevit in Immenſum. Virtutum Tanta Corona,</l>
+                  <l>At<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> Satellitium, quo non Auguſtius unquam,</l>
+                  <l>Sacrum hunc Sceptrigerum modò non Coeleſtibus aequat.</l>
+               </lg>
+               <lg>
+                  <l>O <hi>Fortunatae</hi> divino Rege <hi>Britannae</hi>
+                  </l>
+                  <l>
+                     <hi>Inſulae,</hi> &amp; <hi>Hybernae!</hi> ſed Tanto Rege minores:</l>
+                  <l>Rege, &amp; totius digno moderamine Terrae.</l>
+               </lg>
+               <lg>
+                  <l>Huic Placuiſſe Patri Patriae, qui <hi>Martis</hi> alumnos,</l>
+                  <pb n="5" facs="tcp:30277:4"/>
+                  <l>Terrificos nuper dominos, diſcinxit, &amp; almâ</l>
+                  <l>Pace haec Regna beat; qui ſingula Munera Regis</l>
+                  <l>Callet, &amp; exequitur; cui Civibus una voluptas</l>
+                  <l>Eſt Prodeſſe ſuis; Cives Certare decehit,</l>
+                  <l>Et donare pias teſtantia Munera mentes.</l>
+               </lg>
+               <lg>
+                  <l>Pulchrum hoc donandi spectat certamen ad omnes.</l>
+                  <l>Ad nos praecipuè, Sacri qui ſemina Verbi</l>
+                  <l>Spargimus. Ille <hi>Pater</hi> nobis <hi>Nutricius,</hi> Ille</l>
+                  <l>Patronus Summus: qui nos, qui noſtra tuetur</l>
+                  <l>Sing ula, nec duris tradit Patrimonia votis.</l>
+                  <l>Iſta ſed an quiſquam, metuiſſet Fulmina noſtrum?</l>
+                  <l>Quis non ſperavit linguáſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> animóſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> faventes?</l>
+                  <l>Et faviſſe minùs, cui non mirabile viſum?</l>
+                  <l>Exprimit &amp; cui non ſua spes illuſa querelas?</l>
+               </lg>
+               <lg>
+                  <l>Nónne Togata fuit Gens, exule Rege, tot annos</l>
+                  <l>Sat miſera, aut potiùs ſat Mortua? Vivere certè</l>
+                  <l>Vix dici poterat, ſic incutiente timores,</l>
+                  <l>Injiciente manus, mortém<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> minante cruentam</l>
+                  <l>Milite Sacrilego, doctarum Oſore Sororum:</l>
+                  <l>Té<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> illi dictante ſcelus, <hi>Fanatica Turba,</hi>
+                  </l>
+                  <l>Docta ſolo Coelum miſcendi, Sacra prophanis,</l>
+                  <l>Mutandi Lucem tenebis, <hi>Quadrata rotundis:</hi>
+                  </l>
+                  <l>Turbo rapax, barathrúm<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> vorax peſtiſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> tremenda.</l>
+                  <l>Quae propè bis denos miſerè graſſata per annos,</l>
+                  <l>Regnorúm<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> trium facies populata venuſtas,</l>
+                  <l>Contemtrix Superûm, parendi neſcia, ſoli</l>
+                  <l>Viſa tibi ſapiens, monitus exoſa ſalubres,</l>
+                  <l>Seditionisamans caediſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> (hos Schiſma Superbum</l>
+                  <pb n="6" facs="tcp:30277:5"/>
+                  <l>Parturit infeſtos, mater nimis impia, foetus;</l>
+                  <l>Haec ova hi corvi, hos fructus haec arbor amaros.)</l>
+                  <l>O utinam aut ſaperes, aut his excedere terris</l>
+                  <l>Vellos, at<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> novas alibi tibi quaerere ſedes.</l>
+                  <l>Indigna es patriis, quas (ſic ingrata, rebellis,</l>
+                  <l>Hoere ſiúm<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> ferax) valdè foedáſq, graváſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan>.</l>
+                  <l>I precor, i properè: <hi>vacuum</hi> ſed delige regnum,</l>
+                  <l>
+                     <g ref="char:V">Ʋ</g>t nè quem poſthac occidas moribus iſt is.</l>
+                  <l>Verùm ego quò rapior, Turbam dum perſequor iſtam?</l>
+                  <l>Ad Gentem redeo noſtram <hi>Carolúm<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan>
+                     </hi> Patronum.</l>
+                  <l>Gentem hanc, quae <hi>Carolo</hi> tandem redeunte revixit,</l>
+                  <l>Afflictam rurſus quoſquam voluiſſe? miſellae</l>
+                  <l>Invidiſſe ſuos reditus? Curtare parâſſe?</l>
+                  <l>Quàm ſors inſtabilis noſtra eſt! quàm expôſta periclis!</l>
+                  <l>Quàm foret haud paucis longè ſuaviſſima Praeda!</l>
+               </lg>
+               <lg>
+                  <l>At Caroli Pietas non vocibus annuit ullis</l>
+                  <l>Res tenuaturis noſtras: Augeſcere Cenſum</l>
+                  <l>Quàm minui nobis mavult: Spoliiſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> Suorum,</l>
+                  <l>Praecipuè acciſi metuit diteſcere Cleri.</l>
+                  <l>Hoc <hi>Magnus</hi> pacto Rex <hi>Carolus</hi> eſſe recuſat.</l>
+                  <l>Illi cura Sui minima eſt; ſed maxima Noſtrî;</l>
+                  <l>Quos amat at<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> fovet, quantum lymphata caterva</l>
+                  <l>Devovet, obſtitimus quòd turpibus iſtitius auſis.</l>
+               </lg>
+               <lg>
+                  <l>Incolumem <hi>Priùs</hi> Ille Fidem ſervavit, utrin<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan>
+                  </l>
+                  <l>Invictus. <hi>Bellona</hi> ferox, &amp; dira Suorum</l>
+                  <l>Seditio potuere nihil: nil Gratia ſumma</l>
+                  <l>Blanditiae<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan>, quibus <hi>Quercum</hi>
+                     <note n="*" place="bottom">Vid. Virgil. Aen. l. 4. Papicolae</note> 
+                     <hi>Hanc</hi> perſaepe petebant</l>
+                  <pb n="7" facs="tcp:30277:5"/>
+                  <l>
+                     <hi>Papicolae</hi> aſtuti, ſperantes poſſe moveri.</l>
+                  <l>Illabefacta tamen multo &amp; <hi>firmiſſima</hi> manſit.</l>
+               </lg>
+               <lg>
+                  <l>Res <hi>Jam</hi> reſpiciens noſtras, tutánſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> volénſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan>
+                  </l>
+                  <l>Eſſe Suae ſimiles Fidei, meritiſſimus audit</l>
+                  <l>Magnus <hi>Defenſor Fidei, Gentíſ<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> Togatae.</hi>
+                  </l>
+                  <l>Deberi Carolo nos noſtráq, jure fatendum eſt.</l>
+                  <l>Is facit aethereâ verè veſcamur ut aurâ.</l>
+                  <l>Vita quid eſt etenim? nonne eſt Salvere, Valere,</l>
+                  <l>Libertas, &amp; Honos, &amp; Opes, &amp; Gaudia vitae?</l>
+                  <l>Haec ſunt vita, haec vita eſt noſtra, &amp; Muneris Ejus.</l>
+               </lg>
+               <lg>
+                  <l>Ergo laetati Magnum ſanxiſſe Senatum</l>
+                  <l>Arcâ ut quiſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> ſuâ in Regem teſtetur Amorem,</l>
+                  <l>(Et nos demeruit, quòd ſe taem Regis Amantem</l>
+                  <l>Praebet, &amp; exhauſtis ità conſulit Illius Arcis.)</l>
+                  <l>Corda aperite Patri, Fratres, aperite Crumenas.</l>
+                  <l>Siqui deliteant, quibus haud <hi>Stymphalides</hi> uncos</l>
+                  <l>Immiſere ungues (&amp; Paucis, ſpero, pepercit</l>
+                  <l>Ferrea Tempeſtas) Fulvos jam promite nummos.</l>
+                  <l>Prodeat Argentum, ſi fortè haud ſuppetit Aurum.</l>
+                  <l>Non ingrata vices ſupplebit <hi>Cynthia Phoebi,</hi>
+                  </l>
+                  <l>Cùm caput occiduis rutilans is condidit undis.</l>
+                  <l>Eſſe Nefas Summum dextram jam credite Mancam;</l>
+                  <l>At<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> Nefas Magnum dextram jam credite<note n="*" place="bottom">Parcentes ego dixteras Odi. Hor. l. 3. Od. 19.</note> Parcam.</l>
+                  <l>Quae procul à nobis, precor, ô procul omnibus abſint.</l>
+                  <l>At<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> aberunt, niſi nos Ingratos eſſe velimus</l>
+                  <l>In Regem, Meritis qui nos Ingentibus implet,</l>
+                  <pb n="8" facs="tcp:30277:6"/>
+                  <l>Et Regum in Regem, qui nos Hoc Rege beavit.</l>
+               </lg>
+               <lg>
+                  <l>Fallor? an eſt Gregibus manus haud ita Libera veſtris?</l>
+                  <l>Sunt bene Nummati, qui nec munuſcula donent.</l>
+                  <l>Pars horum cenſet Sua viſcera viſcera Terrae,</l>
+                  <l>Nec minui Loculos unquam ſine Sanguine ſentit.</l>
+                  <l>Divitiis inhiat, majores quaerit acervos</l>
+                  <l>Per fas at<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> nefas, illos ſua Numina ducens.</l>
+                  <l>Haec donanda ſibi ſperat: qui munera verò</l>
+                  <l>Sperat ab hac, &amp; aquas à ſcabro pumice ſperet,</l>
+                  <l>Clavám<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> Herculeis paret extorquere lacertis.</l>
+                  <l>Et tamen impenſè Regem ſe jactat Amare.</l>
+                  <l>Forſan Amat, ſed Inanis amor res Vilis habenda eſt.</l>
+                  <l>Hos <hi>homines Nihili</hi> verè quis dixerit eſſe.</l>
+                  <l>Pars nec Amat, cui nempe Grave eſt, caligine pulſâ,</l>
+                  <l>Rurſus in aſtrifero Solem ſplendeſcere Coelo,</l>
+                  <l>Et Mare pacatis tandem ſubſidere ventis,</l>
+                  <l>Aſtraeám<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> ſuos terris oſtendere vulius,</l>
+                  <l>Et dare Monſtra hominum meritas Saeviſſima poenas,</l>
+                  <l>Agminá<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> Errorum damnari in Tartara nigra,</l>
+                  <l>Huic cum deſit Amor, mirum eſt ſi Dextera de ſit?</l>
+                  <l>Quid tribuent Soli tenebrae? quid Tartara Coelo?</l>
+                  <l>Quid Jovis alitibus milvi corví<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> rapaces?</l>
+               </lg>
+               <lg>
+                  <l>Sunt quibus eſi Animus Dives, ſed dextera Pauper:</l>
+                  <l>Nil penitus quod donet habens. Fortuna novercans</l>
+                  <l>Quantumvis tenuem vix illis porrigit eſcam.</l>
+                  <l>Non Mens Grata deeſt, non Officioſa Voluntas,</l>
+                  <l>Non Amor, ac ejus comites. Laetantur abundè</l>
+                  <l>Rege ſuo, Recinunt<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> ejus per compita Laudes:</l>
+                  <pb n="9" facs="tcp:30277:6"/>
+                  <l>At<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> Dolent non eſſe ſibi vel parvula dona.</l>
+                  <l>Nunc Onus eſt ſolito Gravius, nunc Acriùs urit</l>
+                  <l>Pauperies: Duplicat gemitus jam Curta ſupellex:</l>
+                  <l>Excitat ingentes jam <hi>res anguſta</hi> querelas.</l>
+                  <l>Nunc Magnas Mirantur Opes, ſoloſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> Beatos</l>
+                  <l>Cenſent eſſe, quibus norûnt turgere crumenas.</l>
+                  <l>Nunc in Vota rôrunt; ſed quae Mediocria ſpernant.</l>
+                  <l>Maxima quaeque petunt, Summóſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> repente creari,</l>
+                  <l>At<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> Opibus <hi>Craſſo Croeſóque</hi> excellere poſcunt.</l>
+                  <l>Iſta perire ſibi cernentes, altera vota</l>
+                  <l>Concipiunt pro Rege, quibus Deus annuat oro.</l>
+                  <l>Nimirum, ut quoniam Regum eſt longè Optimus, et ſit</l>
+                  <l>Majeſtate pari, Regum quo<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> Maximus: Hoſtes,</l>
+                  <l>Quotquot iifuerint, contundat: Schiſmata (Peſtes</l>
+                  <l>Regnorum) tollat: tandem ſit Conjuge felix;</l>
+                  <l>Quae, foecunda Parens, non ſolùm Regna Britanna,</l>
+                  <l>Sed vicina etiam, Natis Stellantibus ornet:</l>
+                  <l>Et quam Nutricem haec Eccleſia ſentiat Almam;</l>
+                  <l>Qualis <hi>Eliſa</hi> fuit: quam ſecula nulla ſilebunt.</l>
+                  <l>Deni<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> Coeleſtes ſerus repetatur in Arces;</l>
+                  <l>Nempe ſenis <hi>Pylii</hi> poſtquam numeraverit annos.</l>
+                  <l>Has aliáſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> Preces ex imo pectore fundunt:</l>
+                  <l>At<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> profuſuros (ſi res ità poſtulet) ipſas</l>
+                  <l>Seſe Animas etiam (quia deſunt Munera) spondent.</l>
+               </lg>
+               <lg>
+                  <l>Paucos eſſe reor, queis rerum Copia Magna,</l>
+                  <l>Et Mens Magna ſimul, digno ſe Munere prodens.</l>
+                  <l>Hinc vobis augetur onus: cervicibus illud</l>
+                  <l>Suſcipitote piis: veſtrum eſt Duo Munera Munus.</l>
+                  <pb n="10" facs="tcp:30277:7"/>
+                  <l>Nec ducatis <hi>Onus.</hi> Decus eſt dare Munera Regi.</l>
+                  <l>Nec <hi>Dare</hi> credatis, ſed Reddere. Reddimus Illi</l>
+                  <l>Quae prior Ipſe dedit. Nec reddita <hi>Perdita</hi> fas eſt</l>
+                  <l>Credere. Nam <hi>Carolus</hi> quodcun<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> acceperit illud,</l>
+                  <l>Fertilis inſtar agri, multo cum foenore reddet.</l>
+                  <l>Reddere coepit enim Rex Aureus Aurea ſecla.</l>
+               </lg>
+               <q>Per Munus, erga Regem &amp; honos &amp; affectio oſtenditur. <bibl>
+                     <hi>Irenaeus lib.</hi> 4. <hi>cap.</hi> 34.</bibl>
+               </q>
+            </div>
+            <div type="poem">
+               <head>The Great Windfall.</head>
+               <lg>
+                  <l>
+                     <hi>CHilds Oke,</hi> the glory of<note n="(a)" place="bottom">Not far from <hi>Warwick.</hi>
+                     </note> 
+                     <hi>Balſhall</hi> Heath,</l>
+                  <l>Felt long ago the ſtroke of death.</l>
+                  <l>No radical moiſture could be ſeen</l>
+                  <l>For many a year in the leaſt Green.</l>
+                  <l>The Head was bald, the Arms were ſhrunk,</l>
+                  <l>And ſome decayes were in the Trunk.</l>
+                  <l>Yet ſtill it ſtood: it's deſtiny</l>
+                  <l>As though it purpos'd to defie.</l>
+                  <l>Till <hi>windy Tueſday</hi>
+                     <note n="(b)" place="bottom">
+                        <hi>February</hi> 18. 1661.</note> gav't a Blow,</l>
+                  <l>Struck up it's heels, and laid it low.</l>
+                  <l>A goodly corpſe now you may ſee:</l>
+                  <l>Childs Oke had been a Maſty tree.</l>
+                  <l>Like that of <hi>Ceres,</hi> which did go</l>
+                  <l>For a fair Grove.<note n="(c)" place="bottom">
+                        <hi>una nemus.</hi> Ovid. Met. l. 8.</note> Childs Oke might ſo.</l>
+                  <pb n="11" facs="tcp:30277:7"/>
+                  <l>Childs Oke? the Giants Oke ſay rather,</l>
+                  <l>Or of all neighbouring Okes the father.</l>
+                  <l>A Princely Plant, a Patriot</l>
+                  <l>Of very great and eminent note.</l>
+                  <l>A gallant way-mark: which gave light</l>
+                  <l>To Travellers both day and night.</l>
+               </lg>
+               <lg>
+                  <l>Now <hi>Travellers,</hi> what will ye do?</l>
+                  <l>Where's one that will direct you ſo?</l>
+                  <l>I pitty you: for ſure as day</l>
+                  <l>Ye frequently will loſe your way.</l>
+               </lg>
+               <lg>
+                  <l>And now ye <hi>Neighbours,</hi> think ye good</l>
+                  <l>To burn Childs Oke, that Noble wood?</l>
+                  <l>Keep off your fingers, and attend</l>
+                  <l>Unto the courſe I ſhall commend.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Some</hi> of this Oke I pray you take,</l>
+                  <l>(Some of the Beſt,) and thereof make</l>
+                  <l>Mercurial Statues: thus it will</l>
+                  <l>Retain it's former office ſtill.</l>
+               </lg>
+               <lg>
+                  <l>Make Staves for ancient men of <hi>Some:</hi>
+                  </l>
+                  <l>And One ſo good, it may become</l>
+                  <l>From year to year the worthy hand</l>
+                  <l>Of Him, who <hi>Warwick</hi> ſhall command.</l>
+                  <l>
+                     <hi>Warwick,</hi> where to be ſeen do lie</l>
+                  <l>The Dun Cows Rib, and Sword of <hi>Guy.</hi>
+                  </l>
+                  <l>To thoſe this Staff may added be,</l>
+                  <l>No deſpicable Rarity.</l>
+               </lg>
+               <lg>
+                  <l>Turn into Rulers <hi>Some;</hi> that ſo</l>
+                  <l>Childs Oke may pleaſure Children too,</l>
+                  <pb n="12" facs="tcp:30277:8"/>
+                  <l>In drawing lines, by which they may</l>
+                  <l>Their wandring Penns keep in the way.</l>
+               </lg>
+               <lg>
+                  <l>Then make you may of ſome o'th' reſt</l>
+                  <l>Skreen, Table, Stool, Box, Desk, and Cheſt.</l>
+                  <l>Any of which will matter be</l>
+                  <l>Of a delightful hiſtory.</l>
+               </lg>
+               <lg>
+                  <l>What's for no other uſe may go</l>
+                  <l>Toth'fire, and there it's ſervice do.</l>
+                  <l>But be ſure that you lay it by</l>
+                  <l>Untill ſome Great Solemnity.</l>
+                  <l>'Tis fuel for a <hi>Chriſtmas-day:</hi>
+                  </l>
+                  <l>Or for the <hi>Twenty-ninth of May:</hi>
+                  </l>
+                  <l>
+                     <hi>When loyal hearts pray fervently</hi>
+                  </l>
+                  <l>
+                     <hi>The</hi> Royal Oke <hi>may never dye.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Childs Oke adieu; it grieveth me</l>
+                  <l>To take my laſt farewell of thee.</l>
+                  <l>I n'er ſhall ſee thee more: but I</l>
+                  <l>Will keep thee ſtill in memory:</l>
+                  <l>And think of what thy Death and Fall</l>
+                  <l>Do ſpeak aloud unto us all.</l>
+               </lg>
+               <lg>
+                  <l>That Greateſt ſtrength, even <hi>Heart of Oke,</hi>
+                  </l>
+                  <l>Cannot withſtand Deaths conquering ſtroke:</l>
+                  <l>That they which longeſt live muſt <hi>Dye:</hi>
+                  </l>
+                  <l>And men may Fall, though n'er ſo <hi>High,</hi>
+                  </l>
+                  <l>And n'er ſo <hi>Good:</hi> while Meanneſs Stands,</l>
+                  <l>
+                     <hi>(Shrublike,)</hi> unhurt by violent Hands.</l>
+               </lg>
+            </div>
+            <div type="speech">
+               <pb n="13" facs="tcp:30277:8"/>
+               <head>Oratiuncula ad Regiam Majeſtatem Varvici ha<g ref="char:EOLhyphen"/>bita, <hi>Auguſti</hi> 20. 1636.</head>
+               <opener>
+                  <salute>Auguſtiſſime Monarcha!</salute>
+               </opener>
+               <p>Q<g ref="char:V">Ʋ</g>àm dilatantur noſtra gaudentium corda! quàm diſcurrit feſtivus ſanguis! quàm ex<g ref="char:EOLhyphen"/>ultant laetabundi ſpiritus! ipſi animi induuntur purpurâ, rubore per ora fuſo; &amp; per ampliſſimos laetitiae campos spatiantes, libamenta felicitatis fu<g ref="char:EOLhyphen"/>turae praeguſtant. Illuminamur ſcilicet, obſcurae ſortis homunculi, auspicatiſſimo tanti Luminaris adventu: cujus radii oculos nobis praeſtringunt jux<g ref="char:EOLhyphen"/>tà ac perficiunt: &amp; in cujus luce Britanniam feli<g ref="char:EOLhyphen"/>ciſſimè apricantem ſtupet, non ſine invidia, univerſus orbis. Quò enim terrarum non penetravit fulgor Majeſtatis Tuae? quos non occupavit ſenſus prae<g ref="char:EOLhyphen"/>ſtantia conditionis noſtrae? Terra oportet ſit Incogni<g ref="char:EOLhyphen"/>ta quae <hi>Inſulas</hi> noſtras, Te imperante, <hi>Fortunatas</hi> neſcit. Nam quotuſquiſque Principum tam Divi<g ref="char:EOLhyphen"/>nitatis particeps? tam ejus imaginem in virtutibus ſuis exprimit, &amp; ſubditorum animis imprimendam curat? quotuſquiſque tam provinciae ſuae invigilat? tam Sibi imperat? tam divini corporis fili &amp; tem<g ref="char:EOLhyphen"/>peramenti, non modò ad Juſtitiam, ſed ad Tempe<g ref="char:EOLhyphen"/>rantiam, ſed ad Fortitudinem, ſed ad Prudentiam,
+<pb n="14" facs="tcp:30277:9"/> ſed ad Heroicos animi motus? Et quid ulterius in Principe, omnium virtutum coronâ ſic circundato, omnium Gratiarum ſatellitio ſic ſtipato, cupiamus, niſi ut ſit Immortalis? Quin &amp; divini Numinis be<g ref="char:EOLhyphen"/>nignitatem agnoſcimus admirabilem, quae felicitati noſtrae hanc indulſit appendicem, ut Phoebum no<g ref="char:EOLhyphen"/>ſtrum, ſimul atque occideris, exoriturum speremus glorioſum in jam oriente &amp; adhuc tenella ſtirpe. Quae faxit idem Numen ut tam patriſſet, quàm hu<g ref="char:EOLhyphen"/>millimis illud precibus fatigamus, ut ſuis Britannis Majeſtas Tua quàm diutiſſime affulgeat.</p>
+               <p>Sumus quidem Britanni omnium, quos ſol videt, beatiſſimi Tuo Imperio: ſumus &amp; <hi>Varvicenſes</hi> omnium Britannorum, nunc temporis, Tuâ Praeſen<g ref="char:EOLhyphen"/>tiâ. Non ſe ſuorum oculis ſubducit (ut moris fuit aliquibus,) Majeſtas Tua: ſed Sui videndi, Sui affandi copiam tam ruri quàm civitati facit: caetera invidendis ſe non invidet. Neque prodeuntis in pub<g ref="char:EOLhyphen"/>licum vultus (ut olim Dictatoris cujuſdam Romani) plebem fugat, ſed inſtar magnetis attrahit. Quà deſcendis, aut morulam facis, quàm denſus specta<g ref="char:EOLhyphen"/>tor! quàm ingens inermium exercitus! qui affe<g ref="char:EOLhyphen"/>ctibus Tibi militant, qui Majeſtatem Tuam obſi<g ref="char:EOLhyphen"/>dent, &amp; victa paenè verecundiâ nihil non agunt, quó illius conspectu oculos paſcant. In quo certè non minùs ſibi gratulantur quàm olim aut Archimedes in deprehenſo aurifabri dolo, aut <hi>Anaxagoras</hi> in con<g ref="char:EOLhyphen"/>spectu ſolis; quo compenſari quicquid pertulerat
+<pb n="15" facs="tcp:30277:9"/> aerumnarum judicabat. Te, ſolem noſtrum fulgen<g ref="char:EOLhyphen"/>tiſſimum, ſuſpicimus, Te veneramur: ſunt felici<g ref="char:EOLhyphen"/>tates noſtrae radii Majeſtatis Tuae: quibus eam Veſtalem honoris &amp; officii flammam in noſtris omni<g ref="char:EOLhyphen"/>um pectoribus accendiſti, quam ſolius rogi eſt extin<g ref="char:EOLhyphen"/>guere.</p>
+               <p>At quas gratiarum victimas Majeſtati Tuae immolabimus, quae ſervulorum ſuorum humillimos dignata eſt beare vivifico conſpectu Sui? aut quâ novâ obſtetricandi ratione immortalem, quam animo concepimus, &amp; quâ intumeſcimus, laetitiam parie<g ref="char:EOLhyphen"/>mus? Factus eſt nobis <hi>Auguſtus,</hi> Tuâ praeſentiâ, <hi>menſium Auguſtiſſimus:</hi> &amp; hodiernus dies dierum, quos vidimus, omnium Sereniſſimus. Cujus pompâ, &amp; splendorem Comitum noſtrorum obruente, &amp; an<g ref="char:EOLhyphen"/>tiquitatibus noſtris antiquiſſimis multo nobis anti<g ref="char:EOLhyphen"/>quiore, ſuperbire ſi minùs liceat, gloriari licet. Et gloriantes quidem omnes cernit Majeſtas Tua, &amp; praecipuè Tredecimviros. Quorum etiam illi, qui<g ref="char:EOLhyphen"/>bus capita hyems aetatis aut penitùs abraſit, aut canis aſperſit, quíque alterum, ut dicitur, pedem in cymba <hi>Charontis</hi> habent, vix ſibi temperant à tripudio. Plures quidem vitas ſibi optant qaus pro Majeſtat Tua, ſi opus ſit, profundant. Illud autem nos omne dolore non levi afficit, quôd cùm ad pectora noſtra Majeſtati Tuae exhaurienda vel amphora non ſuffi<g ref="char:EOLhyphen"/>ciat, tenuitati noſtrae non niſi <hi>tantillus</hi> iſte cyathus ſuper ſit. Pauperculum quidem munuſculum, ſed
+<pb n="16" facs="tcp:30277:10"/> gratiarum, ſed officii plenum. Quód<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ut <hi>Artax<g ref="char:EOLhyphen"/>erxes</hi> aquam ruſtici, ſi vultu benevolo, placido, ſe<g ref="char:EOLhyphen"/>reno, id eſt, Tuo, accipere digneris, nos Nectare &amp; Ambroſiâ donas. Sospitali-Numini quàm ardentiſ<g ref="char:EOLhyphen"/>ſima vota fundimus, ut in taem morbida tempeſtate Majeſtatem Tuam ſoſpitet, &amp; primo morbo ſenectu<g ref="char:EOLhyphen"/>te ultima afficiat.</p>
+               <trailer>Dixi.</trailer>
+            </div>
+            <div type="poem">
+               <head>
+                  <hi>A Second Diſh.</hi> Jan. <hi>10. 1647.</hi>
+               </head>
+               <head type="sub">Toward the end of the Greek Oration an old Woman brought three Rods into the School, and laid them on the Table: When the Oration was ended, theſe following verſes were ſpoken.</head>
+               <lg>
+                  <l>WHat Hagg is this which hither brings</l>
+                  <l>Theſe terrible tormenting things?</l>
+                  <l>I tremble every joynt to ſee</l>
+                  <l>Such inſtruments of cruelty.</l>
+                  <l>They talk of <hi>Quakers</hi> now adaies,</l>
+                  <l>Who in themſelves ſtrange Earthquakes raiſe.</l>
+                  <l>How ſoon am I become a <hi>Quaker,</hi>
+                  </l>
+                  <l>Or at the leaſt a <hi>Button-maker!</hi>
+                  </l>
+                  <l>Three Suns were lately ſeen: that ſight</l>
+                  <l>Did not my mind ſo much affright</l>
+                  <pb n="17" facs="tcp:30277:10"/>
+                  <l>As theſe three Rods: which ſeem to mee</l>
+                  <l>To repreſent the Furies Three:</l>
+                  <l>And plainly to pronounce <hi>
+                        <g ref="char:V">Ʋ</g>ntruſs,</hi>
+                  </l>
+                  <l>You muſt begin the New-year thus.</l>
+                  <l>Your Feaſting's paſt: but you ſhall find</l>
+                  <l>An heavy reckoning comes behind.</l>
+               </lg>
+               <lg>
+                  <l>O grievous, boyes, what ſhall we do?</l>
+                  <l>How ſhall we ſcape this Threefold woe?</l>
+                  <l>Let us with all humility</l>
+                  <l>Implore aid from Authority:</l>
+                  <l>Get the<note n="*" place="bottom">The Bayliff of <hi>Warwick</hi> walks with a White Staff.</note> 
+                     <hi>White Staff</hi> us to releaſe</l>
+                  <l>From the <hi>Black Rod,</hi> and keep the Peace.</l>
+                  <l>And if you think there's too great odds</l>
+                  <l>Againſt one Staff in three great Rods,</l>
+                  <l>We'l of the <hi>Keyes</hi> this favour crave</l>
+                  <l>To joyn their ſtrength, and ſo us ſave.</l>
+               </lg>
+               <lg>
+                  <l>O worthy <hi>Pretor,</hi> and <hi>Divines,</hi>
+                  </l>
+                  <l>Whoſe goodneſs like the Sunbeams ſhines;</l>
+                  <l>Who came to hear our Exerciſes,</l>
+                  <l>And not to ſee our <hi>ſad Aſſiſes:</hi>
+                  </l>
+                  <l>Our <hi>Execution</hi> is at hand,</l>
+                  <l>Unleſs our ſingulat friends you ſtand.</l>
+                  <l>If you demand what is our Crime,</l>
+                  <l>We all were loth to loſe our Time;</l>
+                  <l>Our antient time of Liberty,</l>
+                  <l>Our long'd for Month of Jubile.</l>
+                  <pb n="18" facs="tcp:30277:11"/>
+                  <l>Our Maſters reſolution was</l>
+                  <l>Still to keep School, but ours <hi>Chriſtmas.</hi>
+                  </l>
+                  <l>We will not ſhew our ſelves thought we</l>
+                  <l>Guilty of ſuch ſimplicity.</l>
+                  <l>When other boyes at home do ſtay,</l>
+                  <l>And ſweetly do themſelves enjoy,</l>
+                  <l>Shall we be ty'd unto our Books,</l>
+                  <l>And be expoſ'd to angry looks,</l>
+                  <l>And ſit and freeze, and ſtand in fear</l>
+                  <l>Of bloody Birch and Feruler?</l>
+                  <l>Shall we be cag'd, and others flee,</l>
+                  <l>Be put i'th' pound, and others free?</l>
+                  <l>At other time our School's our glory,</l>
+                  <l>In <hi>Chriſtmas</hi> time our <hi>Purgatory.</hi>
+                  </l>
+                  <l>And if we ſpend this time i'th' School,</l>
+                  <l>Which of us will not prove a fool?</l>
+                  <l>His body preſent ſure his mind</l>
+                  <l>He cannot chuſe but leave behind,</l>
+                  <l>And ſo through many an heavy knock</l>
+                  <l>He will become a <hi>Chriſtmas Block.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Such thoughts as theſe our minds poſſeſſt,</l>
+                  <l>From which we could not be at reſt,</l>
+                  <l>Until we had reſolv'd upon</l>
+                  <l>Our wonted Relaxation.</l>
+                  <l>About the time that heretofore</l>
+                  <l>We commonly had given ore,</l>
+                  <l>Two Latine and one Greek Oration</l>
+                  <l>Still uſhering in this grand Vacation,</l>
+                  <pb n="19" facs="tcp:30277:11"/>
+                  <l>Began our abſence from this place,</l>
+                  <l>Which only now left <hi>ſpeechleſs</hi> was.</l>
+                  <l>To ſhut our Maſters out of door</l>
+                  <l>We did as much as they abhorre.</l>
+                  <l>Thoſe boyes are brutes that ſo abuſe</l>
+                  <l>Whom with all reverence they ſhould uſe.</l>
+                  <l>We fairly left them, and believ'd</l>
+                  <l>Although we had them ſo deceiv'd,</l>
+                  <l>They needed not to be diſpleaſ'd,</l>
+                  <l>Being of their Trouble fairly eaſ'd;</l>
+                  <l>And knowing how their time t'imploy</l>
+                  <l>In Study, as we ours in Play:</l>
+               </lg>
+               <lg>
+                  <l>But all our time we have not all</l>
+                  <l>Sported away. Theſe Speeches ſhall</l>
+                  <l>Which we have ſpoken for us ſpeak.</l>
+                  <l>They are, we muſt confeſs, but weak,</l>
+                  <l>Yet th'are our ſtrength; nor can we go</l>
+                  <l>A further ſtep, our Maſters know.</l>
+                  <l>They alſo know there is not one</l>
+                  <l>Among us all that ought hath done</l>
+                  <l>Since our departure from this place</l>
+                  <l>which doth or them or it diſgrace.</l>
+                  <l>Yet loe three mighty Rods upon</l>
+                  <l>The Table, ready to <hi>fall on,</hi>
+                  </l>
+                  <l>And of this Chriſtmas ſo to clear us</l>
+                  <l>That none hereafter need to fear us.</l>
+                  <l>For after ſo much whipping chear</l>
+                  <l>Who'l live to feaſt another year?</l>
+               </lg>
+               <lg>
+                  <pb n="20" facs="tcp:30277:12"/>
+                  <l>Right Worſhipful, that do ſupply</l>
+                  <l>The place of <hi>that Great Majeſty</hi>
+                  </l>
+                  <l>
+                     <hi>That caſteth now ſo great a Light</hi>
+                  </l>
+                  <l>
+                     <hi>
+                        <g ref="char:V">Ʋ</g>pon the little Iſle of Wight:</hi>
+                  </l>
+                  <l>You that are now as heretofore</l>
+                  <l>Famous for mercy to the Poor:</l>
+                  <l>Providing for them liberally</l>
+                  <l>In times of ſo great ſcarcity:</l>
+                  <l>Vouchſafe we pray you to beſtead</l>
+                  <l>Poor Scholars in a time of need.</l>
+               </lg>
+               <lg>
+                  <l>Right Reverend, that the <hi>Keyes</hi> do carry,</l>
+                  <l>O be to us a <hi>Sanctuary.</hi>
+                  </l>
+                  <l>If you will ſpeak as you are able;</l>
+                  <l>Our Maſters will be exorable:</l>
+                  <l>So that theſe Rods we hence may take</l>
+                  <l>And a brave Bonefire of them make.</l>
+                  <l>O this would be a gallant ſight</l>
+                  <l>To ſee our Fears turn'd to delight!</l>
+                  <l>Or, if we may not ſo deſtroy them,</l>
+                  <l>Our Maſters will forbear t'imploy them,</l>
+                  <l>Until ſome future provocation</l>
+                  <l>Shall call for ſome ſad caſtigation.</l>
+                  <l>If by your means we may obtain</l>
+                  <l>Either of theſe, we ſhall remain</l>
+                  <l>Yours moſt oblig'd, and ſhall not ceaſe</l>
+                  <l>To praiſe the <hi>makers of our Peace.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <pb n="21" facs="tcp:30277:12"/>
+               <head>On the moſt Execrable Murther of the Beſt of Kings, our moſt Gracious Soveraign, <hi>Charls 1.</hi> Jan. <hi>30. 1648.</hi>
+               </head>
+               <lg>
+                  <l>O Sad! an Axe for <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>! my Soul is wounded at His Fall.</l>
+                  <l>O what times are theſe, when a Crown is made but a Football!</l>
+                  <l>O. O. Woe. Woe. —</l>
+                  <l>
+                     <hi>Linguâ tacente ac neſciâ ulteriùs loqui</hi>
+                  </l>
+                  <l>
+                     <hi>Praeſtent ocelli impenſiùs munus ſuum.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <head>In Horrendam caedem Triumvirorum ter Illuſtri<g ref="char:EOLhyphen"/>um, Ducis Hamiltoniae, Comitis Hollandiae, &amp; D. Capelli, Martii 9. 1648.</head>
+               <l>ULtima fit Carolo Regi penultima Jani;</l>
+               <l>
+                  <g ref="char:V">Ʋ</g>ltima ſed Sceleri non fuit illa dies.</l>
+               <l>Saevit &amp; in Regni Proceres furibunda ſecuris.</l>
+               <l>O cui ſecuro jam licet eſſe Pio!</l>
+               <l>Sed Capite abſciſſo cui non vileſcere debent</l>
+               <l>Cervices? cui non jam ſupereſſe Grave?</l>
+            </div>
+            <div type="poem">
+               <pb n="22" facs="tcp:30277:13"/>
+               <head>In iſtos quibus nec Januarii triceſimo Dolere, nec Maii nono &amp; viceſimo Laetari libet.</head>
+               <l>Q<g ref="char:V">Ʋ</g>em non <hi>Atra</hi> dies Jani triceſſima torquet;</l>
+               <l>Quem non <hi>Alba</hi> dies nona &amp; vice ſima Maii</l>
+               <l>Exhilarat, Summum ille Scelus non odit &amp; horret,</l>
+               <l>Praeſentiſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Dei Summum non ſentit Amorem.</l>
+               <l>Non illi Pietas, non illi Patria curae eſt,</l>
+               <l>Diſplicet Ordo gravis, gratum eſt Chaos at<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Chi<g ref="char:EOLhyphen"/>maera.</l>
+            </div>
+         </div>
+         <div type="text">
+            <pb n="23" facs="tcp:30277:13"/>
+            <head>PHILEPISCOPUS. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.</head>
+            <lg>
+               <head>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</head>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>!</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+            </lg>
+            <lg>
+               <pb n="24" facs="tcp:30277:14"/>
+               <head>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</head>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+            </lg>
+            <lg>
+               <head>Flenda Eccleſia.</head>
+               <l>Tu mihi flendus obis <hi>Prideauxi,</hi> ſumme virorum;</l>
+               <l>Sed neque vel minimùm <hi>Tu</hi> mihi flendus obis.</l>
+               <l>Te tua coeleſtis vexit ſuper aethera virtus,</l>
+               <l>Et dedit Angelicis dia ſedere choris.</l>
+               <l>Quàm fuit <hi>inſtabilis</hi> Sedes tibi nupera, diri</l>
+               <l>Omnia Mavortis concutiente manu:</l>
+               <l>Tam <hi>Felix</hi> nunc eſt Sedes, ubi gaudia mille</l>
+               <l>Circumſtant, miſerâ nec peritura vice.</l>
+               <l>Non igitur <hi>Tu</hi> flendus; at eſt <hi>Eccleſia</hi> flenda,</l>
+               <l>Ebeu <hi>Theſauro</hi> Te ſpoliata ſuo.</l>
+               <l>Quàm fuit illa ſuo felix Te ſoſpite Ocello!</l>
+               <l>Quàm miſera amiſſo eſt, &amp; miſeranda ſuis!</l>
+               <l>Te repetente Polum nobis Oracula ceſſant:</l>
+               <l>Nempe fuiſti Anglis magnus <hi>Apollo</hi> tuis.</l>
+               <l>Quis Cathedram aſoendet Fidei Defenſor, &amp; hoſtes</l>
+               <l>Terrifico veluti fulmine ſternet humi?</l>
+               <pb n="25" facs="tcp:30277:14"/>
+               <l>Quis <hi>Romanenſes</hi> contundet, &amp; ora protervis</l>
+               <l>Obſtruet Haereticis natus ad arma pugil?</l>
+               <l>Ah despero Tui ſimilem, Celeberrime: noſtram</l>
+               <l>Ah triſtem poſthac nil niſi flebo vicem.</l>
+            </lg>
+            <lg>
+               <head>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</head>
+               <l>Mittite me flentem, lacrymarum defluit <hi>imber:</hi>
+               </l>
+               <l>Credite moerorem nec ſuperare modum.</l>
+               <l>Poſtulat immenſum immanis jactura dolorem,</l>
+               <l>Nec ſinit ingenuas non maduiſſe genas.</l>
+               <l>Quid niſi noſtra pluant ſic lumina <hi>Lumine demto?</hi>
+               </l>
+               <l>Quid niſi cor graviter <hi>Corde obeunte gemat?</hi>
+               </l>
+               <l>Pectora non <hi>ſilices,</hi> non ſunt mihi lumina <hi>pumex:</hi>
+               </l>
+               <l>Hos ego jam lapides judico <hi>grande nefas.</hi>
+               </l>
+               <l>
+                  <hi>Gratulor</hi> ipſe mihi lacrymas, ſuſpiria, luctum:</l>
+               <l>
+                  <hi>Debita</hi> ſunt Buſtis, Summe vir, illa tuis.</l>
+               <l>Nec <hi>gaudebo</hi> minùs, ſiquando Eccleſia Mater</l>
+               <l>Dixerit, Huic <hi>ſimilem</hi> (quod cupis) ecce <hi>Patrem.</hi>
+               </l>
+               <l>
+                  <hi>Infans</hi> Mater erit, vereor, nec <hi>talia</hi> promet;</l>
+               <l>Ah <hi>unquam</hi> poterit dicier, <hi>Ecce parem?</hi>
+               </l>
+            </lg>
+            <lg>
+               <head>Montium editiſſimus.</head>
+               <l>Monticulus nuper, nunc Mons <hi>Bredona</hi> videtur,</l>
+               <l>Princépſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan>, maximuſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> longè montium:</l>
+               <l>Non modò qui terrae (quae ſat montoſa) <hi>Britannae,</hi>
+               </l>
+               <l>Sed univerſae ſunt honora Tubera.</l>
+               <l>
+                  <hi>Caucaſe,</hi> tu cedis; celſae vos ceditis <hi>Alpes;</hi>
+               </l>
+               <l>
+                  <hi>Athóſque</hi> cedit nubifer cum <hi>Caſio.</hi>
+               </l>
+               <pb n="26" facs="tcp:30277:15"/>
+               <l>Scilicet in Sedem, quam <hi>culta Vigornia</hi> jactat,</l>
+               <l>Annis adhinc qui pauculus ſe contulit,<note n="*" place="bottom">Anno Dom. <hi>1642.</hi> Mai<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> ineunte.</note>
+               </l>
+               <l>Eſt jam ſuppoſitus<note n="†" place="bottom">
+                     <hi>Anno</hi> 1650. <hi>Aug.</hi> 16.</note> 
+                  <hi>Bredonae</hi> ſtellifer <hi>Atlas.</hi>
+               </l>
+               <l>(Sic jure ſummus audiat <hi>Prideauxius.</hi>)</l>
+               <l>Hinc facilè montes mons <hi>hic</hi> ſupereminet omnes;</l>
+               <l>Nanus Gigante longiùe ſic proſpicit.</l>
+               <l>Sic ſacer ego locus, ſic monte ſacratior omni;</l>
+               <l>
+                  <hi>Antiſtes</hi> aut ſit montium quàm <hi>Ampliſſimus.</hi>
+               </l>
+            </lg>
+            <lg>
+               <head>Novus Parnaſſus.</head>
+               <l>Non ego <hi>Parnaſſum</hi> poſthac in <hi>Phocide</hi> quaeram:</l>
+               <l>Illi vicinum neve <hi>Helicona</hi> petam.</l>
+               <l>Facta viae tandem cerno compendia longae:</l>
+               <l>
+                  <hi>Bredonam</hi> video: gratior illa mihi.</l>
+               <l>
+                  <hi>Parnaſſi</hi> eſt inſtar mons <hi>hic, Heliconis</hi> &amp; inſtar:</l>
+               <l>Hîc eſt cum Muſis <hi>totus Apollo</hi> ſuis.</l>
+               <l>Hîc etenim ſitus eſt <hi>magnus Predeauxius ille;</hi>
+               </l>
+               <l>Nuper Apollinei gloria magna chori.</l>
+               <l>
+                  <hi>Anglia</hi> non alio ſe plus jactavit Alumno,</l>
+               <l>Sit licèt innumerâ prole ſuperba Parens.</l>
+               <l>Quàm decet Heröem Tumulus <hi>mons magnus!</hi> at Heros</l>
+               <l>Qui tegitur, Tumulum tollit ad <hi>aſtra</hi> ſuum.</l>
+               <l>Impetus ire mihi eſt, Monte &amp; dormire ſub illo:</l>
+               <l>Numine, poſt aliquot Somnia, plenus ero.</l>
+               <l>Carmina ſuperiora in Prideauxium, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,</l>
+               <l>ſtatim ab illius obitu confeci Quod ſequitur autem,</l>
+               <l>anno <hi>1659</hi> adjeci, cùm &amp; iſta &amp; alia quamplurima,</l>
+               <pb n="27" facs="tcp:30277:15"/>
+               <l>ab aliis condita, publici juris ſe facturum prmioſerat</l>
+               <l>vir ornatiſſimus Johannes Stephanus. Non praeſtitit</l>
+               <l>verò, quia &amp; ipſe ad plures, praematurè nimis, abiit.</l>
+               <l>Et jam non ſupereſt cui ſint ea carmina curae.</l>
+            </lg>
+            <lg>
+               <head>Marmor Vocale.</head>
+               <l>Quaeris, viator, <hi>quem</hi> tegam tantus lapis?</l>
+               <l>Ne quaere <hi>Quem,</hi> ſed <hi>Quot:</hi> tego laetiſſimus</l>
+               <l>
+                  <hi>Omnes Sorores,</hi> quas vocant <hi>Heliconidas.</hi>
+               </l>
+               <l>Obſcurior forſan ſum: apertiùs loquar.</l>
+               <l>Illum en tego <hi>Doctiſſimum Prideauxium,</hi>
+               </l>
+               <l>Epiſcopum <hi>Vigorniae</hi> Digniſſimum.</l>
+               <l>Quo plura nemo ſciverat mortallum:</l>
+               <l>Quo nemo plures auxerat ſcientiâ</l>
+               <l>Per luſtra ſeptem <hi>Oxoniae</hi> Miraculum.</l>
+               <l>Quot eruditos linguae &amp; artes adſolent</l>
+               <l>Ornare, plena tot audiit <hi>Syſtemata:</hi>
+               </l>
+               <l>Simúl<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Sacrae <hi>Regium</hi> Theologiae</l>
+               <l>
+                  <hi>Syntagma,</hi> quale nulla poſteritas dabit.</l>
+               <l>Didiciſſe <hi>cuncta</hi> credo quae diſci queant.</l>
+               <l>At omnium perfectiùs didicit nihil</l>
+               <l>Quàm Chriſtianè quàm fortiſſimè pati</l>
+               <l>Non Chriſtiana: quod quidem didicit <hi>ſenex</hi>
+               </l>
+               <l>Docuit<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> cunctos, mente dum <hi>magnâ</hi> tulit</l>
+               <l>Injurias, quas intulit <hi>rapax manus:</hi>
+               </l>
+               <l>Laturus aequè fortiter dispendium</l>
+               <l>Vitae ipſius, ſi poſtulaviſſet Fides:</l>
+               <l>
+                  <g ref="char:V">Ʋ</g>t <hi>Latimerus</hi> ille Martyr inclytus:</l>
+               <pb n="28" facs="tcp:30277:16"/>
+               <l>Quem &amp; habuit alma Praeſulem <hi>Vigornia.</hi>
+               </l>
+               <l>Fidem ſaluti uter<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> longè praetulit.</l>
+            </lg>
+            <lg>
+               <l>Haud impares &amp; Protomyſtae nuperi,</l>
+               <l>
+                  <hi>Mortonus, Hallus, Davenantius, Cokus,</hi>
+               </l>
+               <l>
+                  <hi>Potterus,</hi> &amp; <hi>Brunriggus,</hi> &amp; <hi>Bedellius,</hi>
+               </l>
+               <l>
+                  <hi>Uſſeriúſque Hiberniae</hi> Primas ſuae,</l>
+               <l>Alii<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> quos procella proſtravit gravis,</l>
+               <l>Et Sedibus ſpoliavit heu prorſus ſuis.</l>
+               <l>
+                  <hi>Bellona quid non impii patrat ferox!</hi>
+               </l>
+               <l>Non chara cuipium ex iis aequè fuit</l>
+               <l>Vitalis aura (quâ tamen quid amoenius?)</l>
+               <l>Ac ſacroſancta veritas &amp; religio.</l>
+               <l>In his tuendis perdidiſſent centies</l>
+               <l>Vitam libenter ſinguli: tyrannidis</l>
+               <l>Nihil morati fulminantem dexteram,</l>
+               <l>Nil flagra, carceres, cruces, flammas, rotas.</l>
+               <l>Et jam <hi>Columnas maximas</hi> Eccleſiae</l>
+               <l>
+                  <hi>Epiſcopos</hi> fuiſſe quis negaverit?</l>
+               <l>Quis non ruinae ſentit eſſe proximam</l>
+               <l>Ex quo ruebant ejus haec fulcimina?</l>
+               <l>Quid Haereſis non auſa? quid non Schiſmata?</l>
+               <l>Blaſphemiarum quae vagantur agmina!</l>
+               <l>
+                  <hi>Fraenâſſet</hi> haec Epiſcopatus omnia.</l>
+               <l>Jam dira monſtra quis domabit Hercules?</l>
+               <l>Sanabit ô qaae jam peritior manus</l>
+               <l>Eccleſiae periclitantis vulnera?</l>
+               <l>Sed reprimo me, non neſcius quôd ſim lapis.</l>
+               <l>(Lapidi at querelas haec ſuas mala exprimant.)</l>
+               <pb n="29" facs="tcp:30277:16"/>
+               <l>Et te, viator, pauculis pergam alloqui.</l>
+            </lg>
+            <lg>
+               <l>En Gratias, en <hi>Gratias Omnes</hi> tego.</l>
+               <l>Non splendet unquam ſtellulis Coelum magìs</l>
+               <l>Quàm ſplenduit virtutibus <hi>Prideauxius:</hi>
+               </l>
+               <l>Illíſque <hi>primae</hi> (crede) <hi>magnitudinis.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Non me <hi>madentem</hi> jam vides, ſicut ſolent</l>
+               <l>Lapides ſubinde. In poſterum ſi videris,</l>
+               <l>
+                  <hi>Prae gaudio</hi> lacrymas ſcias me effundere;</l>
+               <l>Quòd tam <hi>Colendum</hi> contigit mihi condere</l>
+               <l>
+                  <hi>Antiſtitem, Tantum Virum,</hi> ſeu veriùs</l>
+               <l>
+                  <hi>Tantum Virorum,</hi> Eccleſiae ſummum decus,</l>
+               <l>
+                  <hi>Mortale Numen ſempiterni Nominis.</hi>
+               </l>
+               <l>Quòd Magna de me ſentiam, &amp; ſuperbiam,</l>
+               <l>Et glorier, quis eſſe jam non dixerit?</l>
+               <l>Cave, viator, me, licèt <hi>Tantum, Colas.</hi>
+               </l>
+               <l>Nil vendito, nil vendico Lapidem ſupra.</l>
+               <l>Simul procaces me pedes <hi>temerent</hi> cave;</l>
+               <l>Non memet uſpiam eſt <hi>lapis Pretioſior.</hi>
+               </l>
+               <l>Magnum memineris quòd tegam <hi>Prideauxium:</hi>
+               </l>
+               <l>Virum per Orbem ſcilicet Celeberrimum</l>
+               <l>Et <hi>Sanctitatis</hi> nomine &amp; <hi>Scientiae;</hi>
+               </l>
+               <l>
+                  <hi>Novem Sorores</hi> cum <hi>Sororibus Tribus.</hi>
+               </l>
+            </lg>
+            <div type="elegy">
+               <head>The Biſhop of <hi>Worceſters</hi> Viſitation. <hi>1662.</hi>
+               </head>
+               <lg>
+                  <l>WHen Biſhop <hi>Gauden</hi> was about to go</l>
+                  <l>A <hi>Viſiting,</hi>
+                     <note n="*" place="bottom">He appointed a Viſitation at <hi>Everſham, Sept.</hi> 22. at <hi>Strat<g ref="char:EOLhyphen"/>ford, Sept.</hi> 24.</note> the <hi>Biſhop of Souls</hi> ſaid, No;</l>
+                  <pb n="30" facs="tcp:30277:17"/>
+                  <l>My purpoſe is to Viſit in thy ſtead,</l>
+                  <l>And All thy Dioceſe in <hi>Thee its Head.</hi>
+                  </l>
+                  <l>Then with a <hi>Stone</hi>
+                     <note n="*" place="bottom">He died of the Stone, Sept. 21.</note> gave him a <hi>dreadful Blow;</hi>
+                  </l>
+                  <l>And for his <hi>Cure</hi> bade him to <hi>Heaven</hi> go.</l>
+               </lg>
+               <lg>
+                  <l>Sad <hi>Worceſter</hi> lamenteth to a wonder:</l>
+                  <l>Eſteeming this her Loſs a <hi>ſecond Plunder.</hi>
+                  </l>
+                  <l>The Orphan-Clergy with <hi>Eliſha</hi> cryes</l>
+                  <l>
+                     <hi>My Father, my dear Father</hi> from us flyes.</l>
+                  <l>Yea his <hi>whole</hi> flock accounteth the <hi>Tranſlation</hi>
+                  </l>
+                  <l>Of this rare Biſhop a <hi>ſore Viſitation.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="part">
+               <head>On the Book of Common Prayer, by whom and when compiled.</head>
+               <l>
+                  <hi>CRanmer, Skip, Goodrick, Thirlby, Holbeck, Day,</hi>
+               </l>
+               <l>
+                  <hi>Ridley, Cox, Redman, Taylour, Heins</hi> &amp; <hi>May,</hi>
+               </l>
+               <l>With <hi>Robinſon,</hi> theſe <hi>Tredecimviri</hi>
+               </l>
+               <l>Compilers were of our Church-Liturgy.</l>
+               <l>In the Sixth <hi>Edward</hi>'s third the month of May</l>
+               <l>Produc'd this Flower, and fill'd the Land with Joy.</l>
+               <l>'Twas <hi>Freſh</hi> and <hi>Fragrant</hi> then: <hi>Old</hi> now it is:</l>
+               <l>And yet it ſtill retains its <hi>Fragrancies.</hi>
+               </l>
+               <l>Theſe Prayers, like <hi>Incenſe</hi> will acceptance find,</l>
+               <l>If they be offered with an <hi>Holy Mind.</hi>
+               </l>
+            </div>
+         </div>
+         <div type="text">
+            <pb n="31" facs="tcp:30277:17"/>
+            <head>PHILOPHILUS.</head>
+            <div type="poem">
+               <head>1. Viro ornatiſſimo, Medico clariſſimo, D. <hi>Ed<g ref="char:EOLhyphen"/>vardo Wagſtaffo, Stratfordienſi.</hi>
+               </head>
+               <l>COnſiliis parendo tuis (vir ſumme) fugavi</l>
+               <l>Terrificum, qui me nuper devicerat, hoſtem,</l>
+               <l>Vena mihi ſecta eſt, clyſter injectus, hirudo</l>
+               <l>Admota eſt, &amp; quae voluiſti caetera facta.</l>
+               <l>Hinc propè convalui. Quôd ſi <hi>mens ſana</hi> fuiſſet,</l>
+               <l>Nae penitus multo mihi vires antè redîſſent.</l>
+               <l>
+                  <hi>Bis</hi> ſua jam ferme complevit cornua <hi>Phoebe,</hi>
+               </l>
+               <l>Ex quo <hi>creſcentem</hi> cupiens <hi>firmare</hi> ſalutem,</l>
+               <l>Me crebrò in campos, <hi>Jove frigidiore,</hi> recepi;</l>
+               <l>Scaláq, appoſitâ decerpſi ex arbore poma:</l>
+               <l>At<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> alia imprudens feci; unde illa ſecuta eſt</l>
+               <l>
+                  <hi>Debilitas,</hi> quae me tantùm non clauſerat urnâ.</l>
+               <l>At rurſum emerſi. Vires &amp; ſpero futuras</l>
+               <l>Eſſe brevi tantas, ut te, Chariſſime, viſam.</l>
+               <l>Intereà <hi>Edvardus Wagſtaffo</hi> mille ſalutes</l>
+               <l>Dicat, &amp; à nobis illi quae debita ſolvat.</l>
+            </div>
+            <div type="poem">
+               <pb n="32" facs="tcp:30277:18"/>
+               <head>
+                  <hi>2.</hi> To his Worthy Friend Mr. <hi>Edward Wagſtaff.</hi>
+               </head>
+               <l>SIR! next my Maker, I acknowledge <hi>You</hi>
+               </l>
+               <l>Are <hi>He,</hi> to whom my greateſt thanks are due.</l>
+               <l>My <hi>health</hi> was <hi>fled,</hi> my <hi>life</hi> was <hi>taking wing:</hi>
+               </l>
+               <l>Your Art <hi>this</hi> ſtayed, <hi>the other</hi> back did bring.</l>
+               <l>Your <hi>Merit</hi> being <hi>ſuch,</hi> and you being bleſt,</l>
+               <l>I make no doubt, with <hi>Galens weightieſt Cheſt,</hi>
+               </l>
+               <l>Who will not think't <hi>abſurd,</hi> and <hi>to no boot,</hi>
+               </l>
+               <l>As a <hi>reward,</hi> to ſend you an <hi>Old Suit?</hi>
+               </l>
+               <l>Yet this I do: not doubting but you may</l>
+               <l>With <hi>credit</hi> wear it to your dying day:</l>
+               <l>And after you your <hi>Heir,</hi> though he ſhould be</l>
+               <l>A perſon of <hi>ſublimeſt</hi> dignity.</l>
+               <l>A Suit of <hi>Edward,</hi> that <hi>rare King,</hi> to wear</l>
+               <l>May thoſe become that move i'th' <hi>higheſt ſphere.</hi>
+               </l>
+            </div>
+            <div type="poem">
+               <head>3. Fratri Chariſſimo, D. <hi>Guil. Du Gardo,</hi> Scholae Mercatorum Sciſſorum apud Londinenſes Mo<g ref="char:EOLhyphen"/>deratori. 1653.</head>
+               <l>Q<g ref="char:V">Ʋ</g>ae benè <hi>Guſtavi</hi> menſam decuiſſet <hi>Adolphi,</hi>
+               </l>
+               <l>Ad nos miſiſti <hi>Magnificam Artocream.</hi>
+               </l>
+               <l>
+                  <hi>Ingentes</hi> agimus <hi>tanto</hi> pro munere grates.</l>
+               <l>Ah dolet haſce tuas poſſe <hi>perire</hi> dapes.</l>
+               <pb n="33" facs="tcp:30277:18"/>
+               <l>Si coquus Artocream nôſſet ſtruxiſſe <hi>perennem,</hi>
+               </l>
+               <l>O menſae noſtrae gloria <hi>quanta</hi> foret!</l>
+               <l>Vive, vale, &amp; <hi>Reducem</hi> cùm afflicta <hi>Britannia Regem</hi>
+               </l>
+               <l>(Quod non despero) viderit, at<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> 
+                  <hi>Deum:</hi>
+               </l>
+               <l>(Nam <hi>Deus</hi> à nobis <hi>dulci cum Pace</hi> receſſit:</l>
+               <l>Has illi poenas <hi>rurba proterva</hi> damus.)</l>
+               <l>Menſa epulaturo quò ſit mihi <hi>lautior,</hi> at<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan>
+               </l>
+               <l>
+                  <hi>Laetior,</hi> Artocream tu mihi mitte Novam.</l>
+            </div>
+            <div type="poem">
+               <head>4. Viro Ornatiſſ. affini chariſſ. D. <hi>Joh. Trappo,</hi> Weſtoniae Miniſtro. 1653.</head>
+               <l>
+                  <hi>NUmidicis avibus,</hi> pergrato munere, conjux</l>
+               <l>Donavit olim conjugem meam tua.</l>
+               <l>Nunc mea, cujus amor voluit majora, reponit</l>
+               <l>
+                  <hi>Junonias aves,</hi> marem unà &amp; foeminam.</l>
+               <l>Si gratae fuerint, quantum Pavo iſte <hi>ſuperbit,</hi>
+               </l>
+               <l>Illa <hi>efferetur gaudio,</hi> ſimúl<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ego.</l>
+            </div>
+            <div type="poem">
+               <head>5. Viro ornatiſſ. D. <hi>Nicolao Camerario.</hi> 1655.</head>
+               <l>Q<g ref="char:V">Ʋ</g>um mea Malatibi <hi>mala</hi> non videantur, at eſſe</l>
+               <l>Te meliora neges, <hi>Camerari,</hi> haec paucula mitto.</l>
+               <l>Si tria, <hi>toſta probè,</hi> lectum libet eſſe petenti,</l>
+               <l>Ventriculo illa tuo percommoda credo futura.</l>
+               <l>
+                  <hi>Parcior</hi> eſſe cave: quum corbem abſumſeris iſtum,</l>
+               <pb n="34" facs="tcp:30277:19"/>
+               <l>Eſt mihi ſaepe novum qui ſuppeditabit acervus.</l>
+               <l>Noctibus hybernis quantum ſuffecerit addam,</l>
+               <l>Si jam miſſa tibi tu ſenſeris eſſe ſaluti.</l>
+               <l>Quantum <hi>mente</hi> vales, tantum, dilecte, valebis</l>
+               <l>
+                  <hi>Corpore,</hi> ſi poterunt mea mala &amp; vota valere.</l>
+            </div>
+            <div type="poem">
+               <head>6. Eidem. 1656.</head>
+               <l>Q<g ref="char:V">Ʋ</g>aere tibi uxorem quae ſit pia, pulchra, pudica,</l>
+               <l>Provida, verborum parca, &amp; parere parata.</l>
+               <l>Quaeris ubi <hi>Dos</hi> ſit? viſum eſt mihi dotis <hi>abundè,</hi>
+               </l>
+               <l>Si <hi>tot</hi> ſint dotes. Comitem tamen <hi>alma crumena</hi>
+               </l>
+               <l>Si ſeſe obtulerit, laetus cape. Nam<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> bonorum</l>
+               <l>Fit tanto <hi>melior</hi> quanto fit <hi>major</hi> acervus.</l>
+            </div>
+            <div type="poem">
+               <head>7. Juveni, quando vellem uxorem duceret ro<g ref="char:EOLhyphen"/>ganti. 1658.</head>
+               <l>C<g ref="char:V">Ʋ</g>m quatuor luſtris octo ſociaveris annos,</l>
+               <l>Si libet uxorem ducere, amice, licet.</l>
+               <l>Sit <hi>ter ſeptennis</hi> quam vis tibi jungere virgo,</l>
+               <l>Sit <hi>par,</hi> ſit <hi>prudens, praecipuéque pia.</hi>
+               </l>
+               <l>Haec tibi filiolos <hi>alternis</hi> procreet annis</l>
+               <l>Per <hi>quatuor</hi> ſi non ſint <hi>tria</hi> luſtra ſatis.</l>
+            </div>
+            <div type="poem">
+               <pb n="35" facs="tcp:30277:19"/>
+               <head>8. Perdilecto Affini, filióque luſtrico, D. <hi>Johan. Trappo, Albeccleſiae</hi> Rectori. 1659.</head>
+               <l>COnjugium meditans <hi>plerum<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan>
+                  </hi> Scholaſtica turba,</l>
+               <l>Si <hi>genus</hi> &amp; <hi>ſpecies</hi> adſint, nil caetera curat.</l>
+               <l>Tu <hi>meliùs,</hi> fili, ſapias, tibi virgo petatur</l>
+               <l>Cui ſint <hi>omnigenae</hi> dotes te conjuge dignae:</l>
+               <l>
+                  <g ref="char:V">Ʋ</g>t <hi>genus</hi> &amp; <hi>ſpecies,</hi> ita mens pia, dextera ſolers,</l>
+               <l>Frugi ſedulitas, candor, morumquè venuſtas:</l>
+               <l>At<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> aliae his ſimiles. Dotum <hi>poſtrema</hi> putetur,</l>
+               <l>Sit licet haud paucis aut <hi>prima</hi> aut <hi>ſola,</hi> metallum.</l>
+               <l>Sit comes haec reliquis. Alias haec <hi>ſplendida</hi> dotes</l>
+               <l>Eximiè ſplendere facit; <hi>lauta</hi> omnia donat;</l>
+               <l>Et mala conjugii (nam ſunt mala) <hi>mollia</hi> reddit:</l>
+               <l>
+                  <g ref="char:V">Ʋ</g>t minimè pigeat thalamum ſubiiſſe jugalem.</l>
+            </div>
+            <div type="poem">
+               <head>9. Viro amiciſſimo, D. <hi>Joh. Harpero,</hi> Cubbingto<g ref="char:EOLhyphen"/>niae Miniſtro. 1659.</head>
+               <l>PErtimeo veterem, necnon propè ſentio morbum.</l>
+               <l>Pharmaca mitte, precor, <hi>Pharmacopoee ſacer.</hi>
+               </l>
+               <l>Nec donata mihi cupio ſed vendita mittas.</l>
+               <l>Quidni ſis etiam <hi>Pharmacopula ſacer?</hi>
+               </l>
+               <l>Eſſe tamen renuis; <hi>ſat habens feciſſe benignè,</hi>
+               </l>
+               <l>At<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> graves morbos arte fugâſſe tuâ.</l>
+               <pb n="36" facs="tcp:30277:20"/>
+               <l>Sat patet hinc menti quant um <hi>tua</hi> diſtet <hi>avarae,</hi>
+               </l>
+               <l>At nè plus nimio diſtet, amice, cave.</l>
+               <l>Quae proſunt <hi>aliis</hi> tua fac <hi>tibi</hi> pharmaca proſint.</l>
+               <l>Sin donare velis, dona referre licet.</l>
+            </div>
+            <div type="poem">
+               <head>10. Viro ornatiſſimo D. <hi>Guil. Martino,</hi> Scholae regiae apud <hi>Varvicenſes</hi> Moderatori. <hi>Jan.</hi> 16. 1660.</head>
+               <lg>
+                  <l>Q<g ref="char:V">Ʋ</g>i Literas tibi tradit has, è filiis</l>
+                  <l>Minor eſt meis, augere qui gregem tuum,</l>
+                  <l>
+                     <g ref="char:V">Ʋ</g>t augeatur ipſe literis, cupit.</l>
+                  <l>Aſcribe quaeſo tuis, &amp; excole gnaviter,</l>
+                  <l>Eccleſiae olim forſan haud inutilem.</l>
+                  <l>Periit miſello temporis nuper nimis,</l>
+                  <l>Muſis (ineptus) quidlibet dum praetulit.</l>
+                  <l>Quod ſeriò tandem, velut par eſt, dolet,</l>
+                  <l>Ambítque rurſus virgines illas ſacras,</l>
+                  <l>Te praeſidem, te deligens <hi>Apollinem:</hi>
+                  </l>
+                  <l>Quod gratiorem fortean reddet tibi,</l>
+                  <l>Aliquantulúmq, calcar ac animos dabit.</l>
+                  <l>Nec tibi peribit opera, quippe ſenties</l>
+                  <l>Nec filium <hi>fungum,</hi> nec <hi>ingratum</hi> patrem.</l>
+               </lg>
+               <lg>
+                  <l>Ignoſce quaeſo Literas quod miſerim.</l>
+                  <l>Adire debuiſſe non ſum noſcius.</l>
+                  <l>At otium non eſt: erit spero brevi.</l>
+                  <l>Brevi te adibo, niſi Deus mihi abnuat.</l>
+                  <pb n="37" facs="tcp:30277:20"/>
+                  <l>Nam te videre, té<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> geſtio alloqui,</l>
+                  <l>Quo nemo quiſ piari eſt tui ſtudioſior.</l>
+               </lg>
+            </div>
+            <div type="poem">
+               <head>11. D. <hi>Rich. Venoro,</hi> Symmyſtae venerando. 1660.</head>
+               <l>TErra licèt madeat, ſi coelum haud fuderit imbres,</l>
+               <l>Cras adero ſacri ſparſurus ſemina verbi.</l>
+               <l>At ſi manè pluat noli expectare <hi>Du-Gardum:</hi>
+               </l>
+               <l>Qui graviter paſſus tandem formido ſaluti.</l>
+               <l>Munus hoc invenies aliàs praeſtare paratum.</l>
+            </div>
+            <div type="poem">
+               <head>12. Amico integerrimo D. <hi>Thomae Glovero,</hi> Ho<g ref="char:EOLhyphen"/>ſpitii apud <hi>Varvicenſes</hi> Magiſtro, nec non Eccleſiae <hi>S. Nicolai</hi> apud eoſdem Paſtori. 1660.</head>
+               <l>Q<g ref="char:V">Ʋ</g>em mihi dixiſti de vita &amp; morte <hi>Lutheri</hi>
+               </l>
+               <l>Eſſe tibi veterem, mittas mihi quaeſo libellum.</l>
+               <l>
+                  <hi>Toxophilum Aſchami,</hi> necnon &amp; opuſcula <hi>Carri</hi>
+               </l>
+               <l>Poſthuma, ſiqua habeas; <hi>Humfredi</hi> deni<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ſiqua,</l>
+               <l>Aut etiam <hi>Hollandi</hi> (fuit hic, fuit ille Cathedrae</l>
+               <l>
+                  <hi>Grande decus</hi> ſacrae) pariter peto, lecta remittam;</l>
+               <l>Et tibi par referam, lectiſſima noſtra paratus,</l>
+               <l>Quandocun<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> voles, dare mutuò, vive valè<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan>.</l>
+            </div>
+            <div type="poem">
+               <pb n="38" facs="tcp:30277:21"/>
+               <head>13. Viro digniſſimo D. <hi>Jacobo Preſcoto.</hi> 1660.</head>
+               <lg>
+                  <l>HAs tibi Literulas qui tradidit, ora pudore</l>
+                  <l>Suffuſum cernis. Graviter peccâſſe fatetur,</l>
+                  <l>Et poenas meruiſſe graves. Quas (credere fas eſt)</l>
+                  <l>Non tam formidat, quàm culpam damnat &amp; odit.</l>
+                  <l>Huic igitur miſero veniae spes nulla ſuperſit?</l>
+                  <l>Spem ſupereſſe liquet, quia ſe tibi ſupplice voto</l>
+                  <l>Advolvit, veniám<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> orat, ſimul impetrat à me</l>
+                  <l>Chartam hanc: quam facilis ſolito precor accipe vultu:</l>
+                  <l>Et da quod petimus, veniam commiſſa dolenti.</l>
+               </lg>
+               <lg>
+                  <l>Quò dare nè dubites, noxa haec eſt <hi>prima,</hi> nec antè</l>
+                  <l>Hoc juvenum integrior quiſquam, nec amantior aequi,</l>
+                  <l>Hinc adamaverunt omnes impenſiùs illum:</l>
+                  <l>Hinc Veteratoris, qui carceris incola tandem eſt,</l>
+                  <l>Fraudibus illectum doluere impenſiùs omnes.</l>
+                  <l>Queis condonatae pariter gratiſſima culpae</l>
+                  <l>Fama erit, &amp; charum tua te clementia reddet.</l>
+               </lg>
+               <lg>
+                  <l>Neve <hi>iteraturum</hi> metuas hoc crimen, ego auſim</l>
+                  <l>Hoc ſpondere tibi: Non inſidiabitur unquam</l>
+                  <l>Cuniculis poſthac. Securas eſſe licebit</l>
+                  <l>Hiſce feris; erit huic <hi>viliſſima</hi> gratior eſca.</l>
+               </lg>
+            </div>
+            <div type="poem">
+               <pb n="39" facs="tcp:30277:21"/>
+               <head>14. Viro admodùm reverendo. D. <hi>Johanni Laeo,</hi> Solihulliae Rectori. Mar. 22. 1660.</head>
+               <l>Q<g ref="char:V">Ʋ</g>os tibi promiſi, Clariſſime, mitto libellos.</l>
+               <l>Poſt tres hebdomadas quaeſo remitte mihi.</l>
+               <l>Et tua nè ceſſes celeri committere Prelo</l>
+               <l>Scripta; nimis ſanè quae latuere diu.</l>
+               <l>Ede; nihil dubitans <hi>Carolo</hi> gratiſſima Regi,</l>
+               <l>Necnon &amp; cunctis illa futura Piis.</l>
+               <l>Et tibi tot Regum tutanti nomina,<note n="*" place="bottom">Scripſit vir eruditiſsimus Vindiclas Regum, Jacobi, Caroli. 1. et 2.</note> nomen</l>
+               <l>
+                  <hi>Quantum</hi> erit! ex calamo laus fluet illa tuo:</l>
+               <l>
+                  <hi>Hic Defenſorum Fidei defenſor, hic ille eſt</hi>
+               </l>
+               <l>
+                  <hi>Ille ſenex Philanax, hic Pius ille ſenex.</hi>
+               </l>
+            </div>
+            <div type="poem">
+               <head>15. Viro Ornatiſſimo, D. <hi>Samueli Franklando,</hi> Archididaſcalo Coventrienſi. 1661.</head>
+               <l>POſt habuiſſe tuo mea magna negotio <hi>Ludo</hi>
+               </l>
+               <l>Stat, modò <hi>Quadrupedem</hi> mihi ne miſiſſe graveris.</l>
+               <l>Nam<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> mihi non eſt, etiam conducere non eſt</l>
+               <l>Qui bene ſeſſori placeat. Meus ille nigellus,</l>
+               <l>Quem nôſti, <hi>generoſus</hi> erat. Sed vendere viſum eſt,</l>
+               <l>Quòd <hi>minor,</hi> at<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> 
+                  <hi>Pari ſeſſorum</hi> eſt creditus <hi>impar.</hi>
+               </l>
+               <l>
+                  <hi>Majorem</hi> emturio; per rus indago, per urbem:</l>
+               <l>Nacturûm<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> brevi qualem deſidero ſpes eſt.</l>
+               <pb n="40" facs="tcp:30277:22"/>
+               <l>Tu mihi mitte meâ qui me ſine conjuge ſolum</l>
+               <l>Afferat. Illa valet, te<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> uxorem<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ſalutat.</l>
+            </div>
+            <div type="poem">
+               <head>Eidem. Julii 11. 1663.</head>
+               <lg>
+                  <l>ADplures abeunte tuâ jam Conjuge, luctus</l>
+                  <l>In <hi>nimios</hi> animum ſolvis, <hi>Franklande.</hi> Dolori</l>
+                  <l>Pone <hi>modum,</hi> gemitus cohibe, pia lumina terge.</l>
+                  <l>Nil tibi, nil illi lacrymarum <hi>flumina</hi> proſint.</l>
+                  <l>Nec laribus te conde tuis; jam laxior aequo</l>
+                  <l>Nè dolor augeſcat <hi>clauſus.</hi> Te confer in urbem:</l>
+                  <l>Cui decus es <hi>magnum, leníſ<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> gravíſ<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan>
+                     </hi> Scholarcha:</l>
+                  <l>Qui pubem innumeram <hi>Muſis &amp; Moribus</hi> ornas.</l>
+                  <l>Civibus hinc iſtis meritò <hi>chariſſimus</hi> audis.</l>
+                  <l>Fac illos adeas quoties à <hi>Munere duro</hi>
+                  </l>
+                  <l>(In quo Sedulitas magnae tibi maxima laudi eſt)</l>
+                  <l>Otia contigerint, &amp; quae ſolatia triſti</l>
+                  <l>Obtulerint, alacer capias; monituſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> fideles,</l>
+                  <l>Quos ſimul addiderint, procul abſit, amice recuſes.</l>
+                  <l>Illorum nemo eſt qui non tibi promſerit iſta.</l>
+               </lg>
+               <lg>
+                  <l>Non eſt quod <hi>doleas,</hi> eſt quod <hi>laeteris,</hi> ademtâ</l>
+                  <l>Jam tandem Conſorte tibi: Coeleſtibus illam</l>
+                  <l>Miſceri, <hi>pia</hi> cùm fuerit, dubitare quis auſit?</l>
+                  <l>
+                     <hi>Ociùs</hi> &amp; ſuperas hinc ſi migrâſſet ad aedes,</l>
+                  <l>Quis neget <hi>impe<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ſè</hi> cur <hi>laetarere</hi> fuiſſe?</l>
+                  <l>Illa etenim morbis plures detrita per annos,</l>
+                  <l>Et cathedrae lectóque affixa, ſibi<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> ſuiſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan>
+                  </l>
+                  <pb n="41" facs="tcp:30277:22"/>
+                  <l>Facta <hi>gravis,</hi> non <hi>viva</hi> fuit ſed <hi>mortua</hi> Conjux.</l>
+                  <l>Viva <hi>Cadaver</hi> erat: quod nec <hi>ſepelire</hi> licebat.</l>
+                  <l>An jucunda tibi <hi>afflictâ</hi> ſic Conjuge vita?</l>
+                  <l>Non <hi>tigris</hi> tibi mater erat, ne<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> 
+                     <hi>Cornea fibra</hi> eſt.</l>
+                  <l>
+                     <hi>Gaudia</hi> ſemper erant, ut par, <hi>communia</hi> utrique:</l>
+                  <l>At<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> 
+                     <hi>Dolor communis</hi> erat. Nunquam illa gemebat</l>
+                  <l>
+                     <hi>Sola: tuum</hi> pariter pectus dolor illius hauſit.</l>
+                  <l>Et tu <hi>talis</hi> eras <hi>viduus quale</hi> illa <hi>cadaver.</hi>
+                  </l>
+                  <l>
+                     <hi>Infelix</hi> viduus: viduo <hi>infelicior</hi> omni,</l>
+                  <l>Quòd ſimul &amp; <hi>Conjux:</hi> ut non <hi>iterare</hi> liceret</l>
+                  <l>Connubium ſanctum, <hi>viváque</hi> uxore beari.</l>
+                  <l>
+                     <hi>Nunc</hi> iterare licet: tibi nunc nova gaudia quaere.</l>
+                  <l>
+                     <hi>Dulcis Hymen, Hymenaee, o Hymen, o Hymenaee,</hi>
+                  </l>
+                  <l>Ingemina, &amp; thalami <hi>maturè</hi> damna reſarci.</l>
+                  <l>Nil ego contulerim <hi>placita</hi> cum Conjuge quidquam,</l>
+                  <l>Quae parit huic miſerae ſolatia maxima vitae.</l>
+                  <l>Tu, quia te cingit virtutum tanta corona,</l>
+                  <l>Et tua te Conjux tam <hi>mirè</hi> ſenſit amantem,</l>
+                  <l>Et tum praecipuè, cùm vixit <hi>mortua,</hi> ſenſit,</l>
+                  <l>Invenies facilè tibi quae velit eſſe <hi>marita.</hi>
+                  </l>
+                  <l>At vix invenies quae ſit <hi>te</hi> Conjuge <hi>digna.</hi>
+                  </l>
+                  <l>Quaere tamen poſitâ lugubri veſte <hi>Secundam,</hi>
+                  </l>
+                  <l>Inventámque tibi numen coeleſte ſecundet.</l>
+                  <l>Talia Dicturos quoſvis exiſtimo Cives,</l>
+                  <l>Queis ego me ſocio, dictiſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> haec inſuper addo.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <g ref="char:V">Ʋ</g>t <hi>viduam Coelebs</hi> duxiſti incautior olim,</l>
+                  <l>At<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> 
+                     <hi>ſeneſcentem juvenis:</hi> jam ſuadeo nubac</l>
+                  <l>Virgo ſeneſcenti viduo. Sed virginis aetas</l>
+                  <pb n="42" facs="tcp:30277:23"/>
+                  <l>Nolo tuae <hi>nimiùm</hi> diſtet. <hi>Bis quatuor</hi> annis</l>
+                  <l>Aut <hi>bis quinque</hi> ſat eſt ſi tu praeceſſeris illam.</l>
+                  <l>Nè nimius videar, Poſtrema attentior audi:</l>
+                  <l>Quae Prima, &amp; meritò Commendatiſſima duco.</l>
+                  <l>Hae tibi nupturâ fac ſint in virgine dotes:</l>
+                  <l>
+                     <hi>Sit genus &amp; ſpecies, ſit mens pia, dextera ſolers,</hi>
+                  </l>
+                  <l>
+                     <hi>Frons hilaris, vox blanda, pudor, morum<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> venuſtas.</hi>
+                  </l>
+                  <l>
+                     <hi>Octo</hi> his accedat par eſt &amp; <hi>nona,</hi> Crumena.</l>
+                  <l>Si tua ſic numerum <hi>Muſarum</hi> impleverit uxor,</l>
+                  <l>Plus ego te <hi>novies</hi> dicam, <hi>Franklande,</hi> beatum.</l>
+                  <l>Vive, vale; &amp; ſimulac ſeſe renovaverit annus,</l>
+                  <l>Scribe mihi <hi>Tedas</hi> &amp; te renovâſſe <hi>jugales.</hi>
+                  </l>
+                  <l>Intereà Noſtris, ſicut <hi>Vocalibus,</hi> ipſis</l>
+                  <l>Sic etiam <hi>Mutis,</hi> à me dic quaeſo ſalutem.</l>
+               </lg>
+            </div>
+            <div type="poem">
+               <head>17. Viro ornatiſſimo, D. G. Martino, Archidi<g ref="char:EOLhyphen"/>daſcalo Varvicenſi. <hi>Auguſti</hi> 20. 1663.</head>
+               <lg>
+                  <l>Q<g ref="char:V">Ʋ</g>i modò <hi>Franklandum,</hi> ſum conſolatus amicum,</l>
+                  <l>Plus ſatis extinctâ lacrymantem uxore, dolenti</l>
+                  <l>Jam, <hi>Martine,</hi> tibi moerens haec paucula mitto,</l>
+                  <l>Queis &amp; te relevem, noſtrum &amp; tibi teſter amorem.</l>
+               </lg>
+               <lg>
+                  <l>Non dolor ille tuus tuus eſt <hi>ſolius;</hi> &amp; <hi>urbem</hi>
+                  </l>
+                  <l>Contriſtat <hi>totam</hi> grave &amp; irreparabile damnum</l>
+                  <l>Quod tibi ſic animum, tibi ſic affligit ocellos,</l>
+                  <l>At<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> tibi gemitus ſic exprimit at<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> querelas.</l>
+                  <l>
+                     <hi>Rus</hi> etiam peragrat; nec quenquam è <hi>ſtipite</hi> natum</l>
+                  <pb n="43" facs="tcp:30277:23"/>
+                  <l>Aut <hi>ſcopulo</hi> offendit. Vox haec, <hi>Martina,</hi> mariti</l>
+                  <l>Grande decus columén<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> ſui, ſoboliſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> tenellae,</l>
+                  <l>Et quâ non fuerat praeſtantior altera conjux,</l>
+                  <l>Et quâ non fuerat praeſtantior altera mater,</l>
+                  <l>
+                     <hi>Undecimum</hi> foetum ſimulat<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> enixa fuiſſet,</l>
+                  <l>Victa puerperii gravis, eheu victa, labore</l>
+                  <l>E vita exceſſit. Vox haec, quorum attigit aures,</l>
+                  <l>Reddidit attonitas ſimul atrociſſima mentes:</l>
+                  <l>Praecipuéque <hi>meam.</hi> Sortem miſeratur acerbam</l>
+                  <l>Me magè nemo tuam viduati Conjuge dulci,</l>
+                  <l>
+                     <hi>Undenae</hi> ſoboliſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> 
+                     <hi>Piâ</hi> jam <hi>Matre</hi> carentis.</l>
+                  <l>Cujus cura tuo jam pectore volvitur uno,</l>
+                  <l>Grande onus, at<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> humeris compar utriuſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> parentis.</l>
+               </lg>
+               <lg>
+                  <l>Nec ſanè doluiſſe queat me veriùs alter;</l>
+                  <l>Elapſi nondum quum ſint bis quatuor anni</l>
+                  <l>Ex quo <hi>ſorte pari,</hi> pertriſti ah ſorte, premebar.</l>
+                  <l>Namque mihi periit meritò chariſſima Conjux,</l>
+                  <l>Filioliſqué meis merito chariſſima Mater;</l>
+                  <l>Foemina, quâ nunquam cumulatior altera laude.</l>
+                  <l>Omnibus una fuit vox, <hi>Eſt haec foemina phoenix.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Hâc mihi, bis denos quum mecum exegerat annos,</l>
+                  <l>Ereptâ, quàm <hi>triſte</hi> fuit mihi vivere! vitae</l>
+                  <l>Sic vitâ fugiente, Mori quàm <hi>dulce</hi> fuiſſet!</l>
+                  <l>Quodcunque aspexi, memet quocunque recepi,</l>
+                  <l>Omnia ſunt Tenebrae, ſunt omnia Somnia viſa,</l>
+                  <l>
+                     <hi>Umbra</hi> mihi quoties, quoties <hi>exangue cadaver</hi>
+                  </l>
+                  <l>Viſus eram, caecis &amp; tradita vermibus eſca!</l>
+                  <l>O mihi quàm placui ſic viſus! ut omnia vitae</l>
+                  <pb n="44" facs="tcp:30277:24"/>
+                  <l>Deſpexi! ut <hi>timui</hi> nè vita aliquando rediret,</l>
+                  <l>Ni ſimul &amp; <hi>Conjux,</hi> Conjux mea vita, rediret!</l>
+               </lg>
+               <lg>
+                  <l>Sic ego deſipui: pudet heu meminiſſe doloris</l>
+                  <l>Immodici, tacitis qui me propè junxerat umbris.</l>
+                  <l>Illo imbecillas &amp; <hi>adhuc</hi> mihi ſentio vires:</l>
+                  <l>At<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> magis firmas penitus despero futuras.</l>
+               </lg>
+               <lg>
+                  <l>Haec memoro, ut damnis monitus, chariſſime, noſtris,</l>
+                  <l>Maturè caveas, nec tradens luctui habenas</l>
+                  <l>Abripiare, mei ſimilis: qui, ſerò reverſus,</l>
+                  <l>Serò nimis doleo me ſuccubuiſſe dolori.</l>
+               </lg>
+               <lg>
+                  <l>Scire velis animum mihi quid ſanaverit aegrum,</l>
+                  <l>Et veteri miſerè palantem ſede locârit?</l>
+                  <l>Commemorabo libens. Haec ſum mihi verba locutus.</l>
+               </lg>
+               <lg>
+                  <l>Ah quid, inepte, facis? Luctu quid <hi>inanius</hi> iſto?</l>
+                  <l>An poterunt lacrymae, queſtus, ſuſpiria, planctus,</l>
+                  <l>Vel revocare tibi uxorem rurſuſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> beatum</l>
+                  <l>Reddere te, vel ei quicquam prodeſſe ſepultae?</l>
+                  <l>Luxeris incaſſum, ſiquidem ploratibus aegris</l>
+                  <l>Nec <hi>minùs</hi> ipſe miſer, nec ſit felicior illa.</l>
+               </lg>
+               <lg>
+                  <l>Sed Vanum eſſe parum eſt: quid luctu <hi>inſanius</hi> iſto?</l>
+                  <l>Quis <hi>furor</hi> eſt etenim poſtquam te Conjuge Coelum</l>
+                  <l>Dilectâ orbarit, temerè te velle tuóſque</l>
+                  <l>Perdere? ſic<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> magìs divinum Numen ad iram</l>
+                  <l>Irritare, feras quòd iniquâ hoc mente flagellum?</l>
+               </lg>
+               <lg>
+                  <l>Miſſos fac luctus, atque incipe <hi>ſanior</hi> eſſe.</l>
+                  <l>Poſce Deum ſupplex veniam: nè forſitan illo</l>
+                  <l>Quo jam caſtigat, graviori fulminet ictu.</l>
+                  <l>Nec <hi>Grates</hi> de ſint: meritas etiam adjice <hi>Grates.</hi>
+                  </l>
+                  <pb n="45" facs="tcp:30277:24"/>
+                  <l>Quantum illi debes, <hi>primùm</hi> quôd Conjuge tali</l>
+                  <l>Te ſit <hi>dignatus: dein,</hi> quòd non <hi>ociùs</hi> illam</l>
+                  <l>Indigno abſtulerit! Reputa te Numinis iram</l>
+                  <l>Commeruiſſe gravem: graviúſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> 
+                     <hi>Admiſſa</hi> dolenda</l>
+                  <l>Quàm tua <hi>Damna</hi> tibi. Jacturam Conjugis <hi>imbre,</hi>
+                  </l>
+                  <l>Imbre <hi>levi</hi> excipias: Culpae vel <hi>flumina</hi> poſcunt.</l>
+                  <l>Scilicet <hi>hinc</hi> miſeris mortalibus omnia <hi>Amara</hi>
+                  </l>
+                  <l>Tanquam à fonte fluunt: <hi>hinc</hi> eſt quòd <hi>Dulcia</hi> perdant;</l>
+                  <l>
+                     <hi>Hinc</hi> amiſſa tibi nunc eſt <hi>Dulciſſima Conjux.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Hanc autem quoties amiſſam cogitat, aedes</l>
+                  <l>Mens tua Coeleſtes &amp; cogitet: altiùs urnâ,</l>
+                  <l>Quae capit Exuvias tantúm, ſe tollat oportet.</l>
+                  <l>
+                     <hi>Sancta Anima,</hi> his poſitis, aedes properavit ad illas;</l>
+                  <l>Jam<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> 
+                     <hi>Beata tui</hi> curam non exuit omnem.</l>
+                  <l>Nam <hi>ſibi Conſortem</hi> rurſus te sperat &amp; optat.</l>
+                  <l>Sic vitam inſtituas ut quos mors <hi>illius</hi> atra</l>
+                  <l>Jam <hi>dirimit, tua</hi> mors iterum gratiſſima <hi>jungat.</hi>
+                  </l>
+                  <l>Sedulus intereà quae pignora parva reliquit</l>
+                  <l>Excole, quò referant olim ſuaviſſima Matrem.</l>
+                  <l>Horum ergô ſit Chara tibi tua vita ſalúſque</l>
+                  <l>Convenit: his in te spes omnis vertitur uno:</l>
+                  <l>Si non cura <hi>tui,</hi> teneros at respice <hi>Natos.</hi>
+                  </l>
+                  <l>Sic etiam in Matrem gratus teſteris Amorem.</l>
+                  <l>Denique fac Alacer Spartam pro viribus ornes,</l>
+                  <l>Sacra Gregi pandens divini Oracula Verbi:</l>
+                  <l>Et jam <hi>praeteritis</hi> monitus, tibi quaeque <hi>futura</hi>
+                  </l>
+                  <l>
+                     <hi>Ultra quàm ſatis</hi> eſt caveas <hi>Adverſa</hi> dolere.</l>
+                  <l>Nec tantùm <hi>Modicè Doleas,</hi> ſed Triſtia quaeque,</l>
+                  <pb n="46" facs="tcp:30277:25"/>
+                  <l>Quae paſſus fueris, ut ſint tibi <hi>Pharmaca</hi> cures;</l>
+                  <l>Pharmaca, queis animus, vitiorum foece levatus,</l>
+                  <l>Surgat humo, &amp; ſpretis ſapiat Coeleſtia terris.</l>
+                  <l>Sic decuit feciſſe <hi>priùs. Nunc</hi> incipe ſaltem</l>
+                  <l>Eſſe <hi>Malis Melior,</hi> nunc Damnum vertere Lucro,</l>
+                  <l>Nunc Tenebris Lucem, Terríſque educere Coelum.</l>
+                  <l>Hoc demum Sapere eſt: haec te ſapientia ducat.</l>
+                  <l>His ego reſtitui me tandem, his <hi>Nube fugatâ</hi>
+                  </l>
+                  <l>Ad ſe mens rediens facta eſt, velut antè, <hi>Serena.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Forſanin his <hi>aliquid, Martine,</hi> inveneris, ipſi</l>
+                  <l>Quod tibi conveniat. Sin, me prudentior, ullis</l>
+                  <l>Haud egeas monitis: ſi non <hi>intenſiùs aequo</hi>
+                  </l>
+                  <l>Plores: ſi <hi>placidâ</hi> divinae verbera dextrae</l>
+                  <l>Mente feras: <hi>ſupra ſi ſydera</hi> mente feraris,</l>
+                  <l>Conjugem ibi dulcem cernens: ſi plurima lecti</l>
+                  <l>Non <hi>magè ſolicitum quàm par eſt</hi> Pignora reddant:</l>
+                  <l>Si quantae fuerint curae Matríque tibíque,</l>
+                  <l>Tantae ea Coeleſti credas fore ſingula Patri,</l>
+                  <l>(Illum quippe Patrem, qui <hi>Coeli quaſque volucres,</hi>
+                  </l>
+                  <l>At<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> minora etiam quaecun<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> animalcula paſcat,</l>
+                  <l>Nolle deeſſe ſui veris Cultoribus unquam:)</l>
+                  <l>Si naves operam tua quô chariſſima proles</l>
+                  <l>(Icon viva ſuae toties repetitae Parentis,)</l>
+                  <l>
+                     <hi>A teneris</hi> Summum veneretur rit<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Parentem</l>
+                  <l>
+                     <hi>Unguiculis,</hi> totam<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> Illi ſe conſecret <g ref="char:V">Ʋ</g>ni:</l>
+                  <l>Si quod volviſti magna cum laude tot annos</l>
+                  <l>Acer hoc ac Alacer pergas grave volvere Saxum:</l>
+                  <l>Si quo Fluxa magis quaevis mortalia ſentis</l>
+                  <pb n="47" facs="tcp:30277:25"/>
+                  <l>Hoc minùs his fidas, at<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> ad Coeleſtia tendas:</l>
+                  <l>Deni<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> (nè nimium pariat tibi taedia Carmen,</l>
+                  <l>Et non ſolator ſed ſim nova cauſa doloris:)</l>
+                  <l>Si praeſtanda tibi quae nôris <hi>caetera</hi> praeſtes:</l>
+                  <l>Non tamen hanc operam calami aſpernabere noſtri:</l>
+                  <l>Sed benè <hi>Martino</hi> credes voluiſſe <hi>Du Gardum:</hi>
+                  </l>
+                  <l>Qui benè <hi>Martinum</hi> novit benè velle <hi>Du Gardo.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <head>18. Viro Ornatiſs. D. Johanni Rogerio, Ham<g ref="char:EOLhyphen"/>toniae-Epiſcoporum Rectori. 1663.</head>
+               <l>SImplicis ecce tibi mentis, Chariſſime, pignus,</l>
+               <l>
+                  <hi>Cydoniorum</hi> fructuum Pentas duplex.</l>
+               <l>Non pro <hi>more</hi> illam mitto, ſed <hi>amore,</hi> precatus</l>
+               <l>Tibi, tuae<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan>, parvuliſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> perpetim</l>
+               <l>Sic validas vires, ut fulcra &amp; pharmaca laeti</l>
+               <l>Et vividi ſpernatis omnes omnia.</l>
+               <l>
+                  <g ref="char:V">Ʋ</g>xori, matri<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> piae, cum fratribus oro</l>
+               <l>Dicere ſalutem nè graveris plurimam.</l>
+               <l>Quos fratres vin' ſcire velim? <hi>Watſúm<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> Fabrúm<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan>
+                  </hi>
+               </l>
+               <l>Cum <hi>Ruddio:</hi> non frater eſt nunc <hi>Ruddius?</hi>
+               </l>
+               <l>Eſſe reor; dignum<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> reor vel conjuge ſummâ:</l>
+               <l>Tuam &amp; ſororem <hi>Ruddio</hi> dignam viro.</l>
+            </div>
+            <div type="poem">
+               <pb n="48" facs="tcp:30277:26"/>
+               <head>19. Viro Ornatiſs. D. <hi>Matthaeo Huntero, Nu<g ref="char:EOLhyphen"/>boldiae</hi> Paſtori. 1663.</head>
+               <l>MAla tibi, <hi>bona</hi> mala tibi, mala <hi>aurea</hi> mitto,</l>
+               <l>Aurea mala <hi>decem:</hi> conſule mala boni.</l>
+               <l>Fac <hi>Huntere</hi> tuum pergas redamare <hi>Du Gardum,</hi>
+               </l>
+               <l>Qui te, nê dubita, pergit amare: vale.</l>
+            </div>
+            <div type="poem">
+               <head>20. Viro Ornatiſs. D. Guil. Dolitlo, Waſperto<g ref="char:EOLhyphen"/>niae Miniſtro. Feb. 20. 1657.</head>
+               <l>EMta ſibi, verum mihi ſi virguncula narret,</l>
+               <l>A me mala cupit tua dilectiſſima conjux.</l>
+               <l>Vendere nulla mihi eſt moris: ne<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> multa ſuperſunt.</l>
+               <l>(Parcior Auctumnus ſolito dare multa negabat.)</l>
+               <l>Nolo tamen tenerae ſint conjugis irrita vota.</l>
+               <l>Idcirco è paucis haec illi paucula mitto.</l>
+               <l>Plura quidem vellem, ſed magna modeſtia parvi</l>
+               <l>Hujus corbiculi plura hinc auferre recuſat.</l>
+               <l>Conſuluiſſe boni uxorem, uxori<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ſalutem</l>
+               <l>Te verbis dixiſſe meis Emiſſe putabo.</l>
+            </div>
+            <div type="poem">
+               <pb n="49" facs="tcp:30277:26"/>
+               <head>21. N. N. rationem auditorum famaeque minùs habenti.</head>
+               <l>R<g ref="char:V">Ʋ</g>re tuo poteris quidvis proferre loquíque.</l>
+               <l>Ad <hi>Mariam</hi> veniens facturus verba coronae</l>
+               <l>Doctorum, haud fas eſt <hi>quaevis incondita</hi> fundas.</l>
+               <l>Huc afferre decet <hi>Muſis &amp; Apolline</hi> digna:</l>
+               <l>
+                  <g ref="char:V">Ʋ</g>nde tibi &amp; nomen ſurgat. Sin ſpreveris Aures</l>
+               <l>Sordidulus noſtras, vertes in ſpicula Linguas.</l>
+            </div>
+            <div type="poem">
+               <head>22. Viro Ornatiſs. D. <hi>Sam. Franklando,</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Feb. 18. 1663.</head>
+               <l>UXor, amice, tibi, <hi>non eſt inventa, reperta eſt:</hi>
+               </l>
+               <l>Tuis reperta in aedibus.</l>
+               <l>Quò <hi>Deus,</hi> ex latere <hi>Adami</hi> qui condidit <hi>Evam,</hi>
+               </l>
+               <l>(Ille Altiùs cùm dormiit,)</l>
+               <l>Addidit &amp; Sociam, ut traducere molliùs aevum</l>
+               <l>Poſſet, &amp; alacriter magìs:</l>
+               <l>
+                  <hi>Ducendam tibi</hi> (nil meditanti tale, velút<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan>
+               </l>
+               <l>Sopore vincto) <hi>adduxerat.</hi>
+               </l>
+               <l>Quae ſivere <hi>diu fruſtrà</hi> connubia multi,</l>
+               <l>Primis ſoluti vinculis.</l>
+               <l>Invenere alii <hi>facilè</hi> nova gaudia: verùm</l>
+               <l>Perpauculis pòſt menſibus</l>
+               <pb n="50" facs="tcp:30277:27"/>
+               <l>Mel in fel verſum eſt, in triſtes oſcula queſtus,</l>
+               <l>Truſere amorem jurgia.</l>
+               <l>At <hi>tibi</hi> ſuppetiit proprio ex lare virgo, reſarcit</l>
+               <l>Quae damna jam lecti tui;</l>
+               <l>Et nil fellis habet, rixandi neſcia, gratae</l>
+               <l>Cultrix quietis ſedula;</l>
+               <l>At<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> 
+                  <hi>ſui ſimilis</hi> ſemper manſura, placendi</l>
+               <l>Studio ſior Domino ſuo.</l>
+               <l>
+                  <hi>Moribus</hi> illa tuis nupſit, praeſtare parata</l>
+               <l>Simulat<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> juſſa acceperit.</l>
+               <l>Te novit nil velle mali, nil nolle quod unquam</l>
+               <l>Tibi recta ratio ſuaſerit.</l>
+               <l>Felix illa viro, felix tu conjuge: utri<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan>
+               </l>
+               <l>Lectum jugalem gratulor.</l>
+               <l>Sunt <hi>illi Primae,</hi> tibi nuptiae, amice, <hi>Secundae:</hi>
+               </l>
+               <l>Tamen fore <hi>Secundiſſimas</hi>
+               </l>
+               <l>Auguror ambobus. Tibi nam <hi>Catharina</hi> videtur</l>
+               <l>
+                  <hi>Regina</hi> quod Regi ſuo.</l>
+               <l>Tú<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> illi pariter (ſummó<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> id jure) videris</l>
+               <l>Quod Conjugi <hi>Princeps</hi> ſuae.</l>
+            </div>
+            <div type="epitaph">
+               <pb n="51" facs="tcp:30277:27"/>
+               <head>
+                  <hi>2.</hi> An Epitaph on the truly pious, learned, humble, peaceable, charitable, faithful Paſtor of <hi>Waves-Wotton,</hi> in <hi>Warwickſhire,</hi> Mr. <hi>George Dunſ<g ref="char:EOLhyphen"/>comb,</hi> who dyed <hi>Septemb. 12. 1652.</hi>
+               </head>
+               <l>Here lyeth Mr. <hi>George Dunſcomb,</hi>
+               </l>
+               <l>HIS Peoples joy, the Clergies Glaſs.</l>
+               <l>His Life a lively Preacher was.</l>
+               <l>A Life as ſpotleſs as the Sun.</l>
+               <l>O that his ſand had longer run.</l>
+               <l>But ſuch a Soul, ſo pure, ſo good,</l>
+               <l>As if the firſt man ſtill had ſtood,</l>
+               <l>Or falling as he did, had done</l>
+               <l>No Prejudice to this his ſon,</l>
+               <l>Except in this alone that He</l>
+               <l>Muſt fill a Grave as well as we:</l>
+               <l>Such a rais'd Soul much fitter was</l>
+               <l>For Heaven then a lower place.</l>
+               <l>And if to Heaven he had gone</l>
+               <l>Like <hi>Enoch,</hi> by Tranſlation,</l>
+               <l>Or in ſuch State had thither rid</l>
+               <l>As the Seraphical Prophet did,</l>
+               <l>This Honour none had thought too high</l>
+               <l>For Grace of ſuch ſublimity.</l>
+            </div>
+            <div type="epitaph">
+               <pb n="52" facs="tcp:30277:28"/>
+               <head>
+                  <hi>23.</hi> An Epitaph on Mr. <hi>Roger Kimberley,</hi> Paſtor of <hi>Kinvar</hi> in <hi>Staffordſhire,</hi> who dyed in <hi>Septemb. 1658.</hi>
+               </head>
+               <l>INterr'd with Great and General Grief here lye</l>
+               <l>The ſad Remains of <hi>Roger Kimberley;</hi>
+               </l>
+               <l>This Churches <hi>ſhining light:</hi> whoſe <hi>raiſed Parts,</hi>
+               </l>
+               <l>Adorned much wi<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>h Languages and Arts,</l>
+               <l>Were laid out to the <hi>utmoſt</hi> that he might</l>
+               <l>Poor ſinners turn from darkneſs unto Light:</l>
+               <l>And unto Light <hi>add</hi> Light, untill the <hi>Span</hi>
+               </l>
+               <l>Or <hi>Babe</hi> of Grace were grown a <hi>Perfect Man.</hi>
+               </l>
+               <l>He wrought apace, his work was quickly done:</l>
+               <l>He hath his <hi>Wages,</hi> a Celeſtial <hi>Crown.</hi>
+               </l>
+            </div>
+            <div type="poem">
+               <head>24. <hi>To his deareſt friend, Mrs.</hi> Mary Huggeford, <hi>with the Authors book called</hi> The Change, or the Blind Eye opened. <hi>Decemb.</hi> 28. 1659.</head>
+               <lg>
+                  <l>MY Dear! would not you think it ſtrange</l>
+                  <l>If you ſhould find in me a <hi>Change</hi>
+                  </l>
+                  <l>After Profeſſion made by me</l>
+                  <l>Of trueſt Love and Conſtancy?</l>
+                  <l>Yet certainly I <hi>Changed</hi> am,</l>
+                  <l>And yet as certainly am <hi>the ſame<g ref="char:punc">▪</g>
+                     </hi>
+                  </l>
+                  <pb n="53" facs="tcp:30277:28"/>
+                  <l>That ſo I be moſt fit it is,</l>
+                  <l>
+                     <hi>Changed, <g ref="char:V">Ʋ</g>nchanged, That</hi> and <hi>This.</hi>
+                  </l>
+                  <l>Were I <hi>not</hi> Changed, cauſe of woe</l>
+                  <l>There would be great to me and you.</l>
+                  <l>And <hi>were</hi> I Changed, no ſmall ſhame</l>
+                  <l>Might juſtly faſten on my Name.</l>
+                  <l>
+                     <hi>Changed,</hi> and yet <hi>
+                        <g ref="char:V">Ʋ</g>nchanged!</hi> you</l>
+                  <l>Will muſe how both theſe can be true.</l>
+                  <l>Read on, I pray, and you ſhall ſee</l>
+                  <l>In them no inconſiſtency.</l>
+               </lg>
+               <lg>
+                  <l>That I am <hi>Changed,</hi> this ſmall Book,</l>
+                  <l>Called the Change, on which you look,</l>
+                  <l>And which may be a Looking-glaſs,</l>
+                  <l>To view the Heart in, not the Face,</l>
+                  <l>Will probably to you declare,</l>
+                  <l>When you with it acquainted are.</l>
+                  <l>You will not eaſily judge that He</l>
+                  <l>Which made it, is Himſelf Change-free:</l>
+                  <l>To what my Book will of me ſay</l>
+                  <l>This I can add, with Truth and Joy.</l>
+                  <l>
+                     <hi>Our bleſſed Lord, both God and Man,</hi>
+                  </l>
+                  <l>
+                     <hi>The pretious Souls Phyſitian,</hi>
+                  </l>
+                  <l>
+                     <hi>Pitying my woful Cecitie,</hi>
+                  </l>
+                  <l>
+                     <hi>Touched my eyes, and made me ſee.</hi>
+                  </l>
+                  <l>
+                     <hi>Twice ſeventeen years ago almoſt</hi>
+                  </l>
+                  <l>
+                     <hi>I ſaw my ſelf utterly Loſt</hi>
+                  </l>
+                  <l>
+                     <hi>Without a Chriſt, and earneſtly</hi>
+                  </l>
+                  <l>
+                     <hi>Did to him for Salvation cry.</hi>
+                  </l>
+                  <pb n="54" facs="tcp:30277:29"/>
+                  <l>
+                     <hi>He graciouſly inclin'd his Ear,</hi>
+                  </l>
+                  <l>
+                     <hi>And ſpake unto me not to fear,</hi>
+                  </l>
+                  <l>
+                     <hi>For he to ſeek and ſave ſuch came</hi>
+                  </l>
+                  <l>
+                     <hi>As truly did believe in's Name.</hi>
+                  </l>
+                  <l>
+                     <hi>Now I believe I ſo believ'd,</hi>
+                  </l>
+                  <l>
+                     <hi>Becauſe for Sin, as Sin, I griev'd:</hi>
+                  </l>
+                  <l>
+                     <hi>And found my ſelf much altered,</hi>
+                  </l>
+                  <l>
+                     <hi>Like</hi> Lazarus <hi>raiſed from the Dead:</hi>
+                  </l>
+                  <l>
+                     <hi>And Lov'd Chriſt for Himſelf alone,</hi>
+                  </l>
+                  <l>
+                     <hi>Despiſing even Salvation</hi>
+                  </l>
+                  <l>
+                     <hi>Compar'd with Him: whoſe ſhining Face</hi>
+                  </l>
+                  <l>
+                     <hi>Would make even Hell a pleaſant place:</hi>
+                  </l>
+                  <l>
+                     <hi>And willing was to be, and do,</hi>
+                  </l>
+                  <l>
+                     <hi>And ſuffer all he calld me to:</hi>
+                  </l>
+                  <l>
+                     <hi>Diſpleaſed with my ſelf when I</hi>
+                  </l>
+                  <l>
+                     <hi>Displeaſ'd Him through infirmity.</hi>
+                  </l>
+                  <l>
+                     <hi>Thus heretofore it was with me:</hi>
+                  </l>
+                  <l>
+                     <hi>Thus 'tis, and ſtill I truſt will be.</hi>
+                  </l>
+                  <l>Thus I am changed. This I prize</l>
+                  <l>Above all earthly Monarchies.</l>
+               </lg>
+               <lg>
+                  <l>Now that I am <hi>
+                        <g ref="char:V">Ʋ</g>nchanged</hi> too,</l>
+                  <l>Deſire you that I likewiſe ſhew?</l>
+                  <l>I do preſume you do, and I</l>
+                  <l>Deſire to do't effectually.</l>
+                  <l>Verbal expreſſions are but weak;</l>
+                  <l>Realities do ſtrongly ſpeak.</l>
+                  <l>Yet words uſe actions to forerun,</l>
+                  <l>As <hi>Phoſphorus</hi> doth the morning Sun;</l>
+                  <pb n="55" facs="tcp:30277:29"/>
+                  <l>And are acceptable till there be</l>
+                  <l>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>or more an opportunity:</l>
+                  <l>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s ſilver <hi>Cynthia</hi> ſatisfies</l>
+                  <l>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ill golden <hi>Phebus</hi> can ariſe.</l>
+                  <l>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>y this time you perceive, I know,</l>
+                  <l>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> am Unchanged toward you.</l>
+                  <l>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nd reaſon good I ſhould ſo be,</l>
+                  <l>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ince cauſe of Change I none can ſee.</l>
+               </lg>
+               <lg>
+                  <l>You <hi>Changed</hi> are no leſs than I.</l>
+                  <l>
+                     <hi>Mary</hi> had no leſs Sanctity</l>
+                  <l>Than <hi>Thomas.</hi>) This is in my eyes</l>
+                  <l>The Queen of Amabilities;</l>
+                  <l>Which, with the lovely Train I ſaw,</l>
+                  <l>My beſt Reſpects did to you draw.</l>
+                  <l>Theſe you were pleaſ'd (which pleaſ'd me much)</l>
+                  <l>Well to accept, and ſhew me ſuch.</l>
+               </lg>
+               <lg>
+                  <l>You are <hi>
+                        <g ref="char:V">Ʋ</g>nchanged</hi> too, like me,</l>
+                  <l>Delighting in Stability.</l>
+                  <l>Believe it then until the fire</l>
+                  <l>That's kindled in you ſhall expire,</l>
+                  <l>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> mean your Love to Chriſt and me,</l>
+                  <l>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>Which I believe will never be)</l>
+                  <l>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>t will be eaſier to remove</l>
+                  <l>A mighty Mountain than my Love.</l>
+                  <l>My Heart is conſtantly with you.</l>
+                  <l>I will be ſhortly with you too.</l>
+                  <l>Mean time, this Firſt-born of my Brain,</l>
+                  <l>
+                     <hi>The Change,</hi> I pray you entertain.</l>
+                  <pb n="56" facs="tcp:30277:30"/>
+                  <l>Let it be often in your Eye,</l>
+                  <l>And let it in your Boſome lye.</l>
+                  <l>Count it your near Relation,</l>
+                  <l>And call it if you pleaſe your Son.</l>
+                  <l>Though ſuch a <hi>Dwarf</hi> you ſee it now,</l>
+                  <l>It may hereafter <hi>bigger</hi> grow.</l>
+                  <l>And might ere now have bigger been,</l>
+                  <l>Had not our Land ſad Changes ſeen.</l>
+                  <l>What it may further ſee none knows</l>
+                  <l>But God alone, who Scorpions owes</l>
+                  <l>To daring Sinners that delight</l>
+                  <l>In changing noon-day into night.</l>
+                  <l>Farewell my Dear, and pray that we</l>
+                  <l>May for all Changes fitted be.</l>
+                  <l>Farewell again my deareſt Dear,</l>
+                  <l>God grant you many a good New year.</l>
+               </lg>
+            </div>
+            <div type="poem">
+               <head>Griff-Lane.</head>
+               <lg>
+                  <l>
+                     <hi>GRiff!</hi>
+                     <note n="*" place="bottom">A Village between <hi>Coventry</hi> and <hi>Nun-Eaton.</hi>
+                     </note> thy <hi>Long Lane</hi> to me moſt <hi>Grievous</hi> was;</l>
+                  <l>Being ſo <hi>deep</hi> that I could <hi>hardly</hi> paſs.</l>
+                  <l>I every moment fear'd a woful fall:</l>
+                  <l>And travelling to a <hi>Friends Funeral,</hi>
+                  </l>
+                  <l>Thought, ſure <hi>mine own</hi>'s at hand: this Lane of <hi>Griff</hi>
+                  </l>
+                  <l>For ought I ſee, is longer than my <hi>Life.</hi>
+                  </l>
+                  <pb n="57" facs="tcp:30277:30"/>
+                  <l>My <hi>Grave</hi> is the next <hi>Hole.</hi> I ſooner may</l>
+                  <l>Go out o'th' <hi>World</hi> than this moſt deadly way.</l>
+               </lg>
+               <lg>
+                  <l>Ye men of <hi>Griff,</hi> pray now <hi>amend your wayes:</hi>
+                  </l>
+                  <l>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>eſt honeſt men therein do end their daies.</l>
+                  <l>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>here went, I think, only a <hi>pair of Shears</hi>
+                  </l>
+                  <l>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>etween the <hi>Lane of Griff,</hi> and <hi>Vale of Tears.</hi>
+                  </l>
+                  <l>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ow I can ſay that I have lately gone</l>
+                  <l>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>horow the <hi>Oddeſt</hi> wayes to <hi>Oddeſton.</hi>
+                     <note n="*" place="bottom">A Town in <hi>Leiceſterſhire.</hi>
+                     </note>
+                  </l>
+                  <l>Sad <hi>Oddeſton,</hi> the <hi>houſe of Mourning</hi>'s there.</l>
+                  <l>And not an eye i'th' Town without a tear.</l>
+                  <l>Yea the <hi>whole Country</hi> mourns, as well it may,</l>
+                  <l>For <hi>Mrs. Breſſey</hi> was the Countryes Joy.</l>
+                  <l>One more Belov'd, one Lovelier than was <hi>She,</hi>
+                  </l>
+                  <l>They all conclude <hi>Oddeſton</hi> will never ſee.</l>
+                  <l>And I conclude that I ſhall never tread</l>
+                  <l>More <hi>vexing wayes</hi> than thoſe which <hi>thither</hi> lead.</l>
+                  <l>
+                     <hi>
+                        <gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ll</hi> bad, <hi>all</hi> ſad: but of all naughts the chief</l>
+                  <l>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>as that <hi>Infernal Lane,</hi> the <hi>Lane of Griff.</hi>
+                  </l>
+                  <l>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>arewell <hi>Griff-Lane:</hi> when I return to thee,</l>
+                  <l>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e be content that <hi>Griff</hi> return to me.</l>
+               </lg>
+            </div>
+            <div type="poem">
+               <head>Of the ſame.</head>
+               <l>
+                  <hi>GRiff-Lane</hi>'s a Grievous Lane, a greater woe</l>
+               <l>One would not wiſh unto his greateſt foe,</l>
+               <pb n="58" facs="tcp:30277:31" rendition="simple:additions"/>
+               <l>Than <hi>once a week</hi> to go and travel there</l>
+               <l>Where he ſhall tugge, and ſweat, and grieve, and fear:</l>
+               <l>
+                  <hi>Grieve</hi> that he's there, <hi>Fear</hi> that he there ſhall lay</l>
+               <l>(Do what he can) his Bones, to mend the way.</l>
+               <l>It is <hi>Profoundly</hi> bad, yet I can ſay</l>
+               <l>This <hi>Good</hi> of it, 'twill teach a man to <hi>pray.</hi>
+               </l>
+               <l>Such as in all their life nere prayed, if</l>
+               <l>They were once there, would quickly pray <hi>for life.</hi>
+               </l>
+               <l>Were it to change its name, and I the man</l>
+               <l>Should give it one, I'de call it <hi>Prayer-Lane.</hi>
+               </l>
+            </div>
+            <div type="author_to_the_reader">
+               <head>Lectori.</head>
+               <l>Q<g ref="char:V">Ʋ</g>o mihi <hi>Candidior</hi> reddaris Candide Lector,</l>
+               <l>Edendi eſt hujus ratio reddenda libelli.</l>
+               <l>Hoc utor <hi>Clypeo.</hi> Facilè ſternuntur <hi>Inermes,</hi>
+               </l>
+               <l>Quum ſatis <hi>Armati</hi> nôrint ſua jura tueri.</l>
+               <l>
+                  <g ref="char:V">Ʋ</g>tor &amp; hoc <hi>Medico.</hi> Pereat qui Pharmaca temnit</l>
+               <l>(Quod ſanè Inſani eſt) maturè adhibere ſaluti eſt.</l>
+               <l>Hoc volui te ſcire. Vale jam Candide Lector.</l>
+               <closer>
+                  <signed>Tuus <hi>Tho. Du-Gardus</hi>
+                  </signed>
+               </closer>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="errata">
+            <head>ERRATA.</head>
+            <p>PAge 9. line 7. ſor rorunt lege ruunt, p. 15. l. 23. qau<g ref="char:EOLhyphen"/>lege quas, p. 24. l. 2. lege <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, p. 25. l. 6. defluit le<g ref="char:EOLhyphen"/>ge defluat, p. 28. l. 25. qaae lege quae, p. 29. l. 26. Ever<g ref="char:EOLhyphen"/>ſham lege Eveſham.</p>
+            <pb facs="tcp:30277:31"/>
+         </div>
+      </back>
+   </text>
+</TEI>
